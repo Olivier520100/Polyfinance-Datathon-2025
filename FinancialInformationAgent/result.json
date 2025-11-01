@@ -1,0 +1,28 @@
+{
+  "status": "success",
+  "company": "Microsoft",
+  "timestamp": "2025-11-01T17:03:09.915682",
+  "data": {
+    "overview": {
+      "region": "Amérique du Nord, États-Unis, Amérique"
+    },
+    "sector": {
+      "industry": "Technologie de l'information",
+      "sector": "Technologie",
+      "subsector": "Logiciels et services informatiques"
+    },
+    "subsidiaries": [
+      "LinkedIn",
+      "GitHub",
+      "Skype",
+      "Xbox"
+    ],
+    "suppliers": [
+      "Intel",
+      "AMD",
+      "NVIDIA",
+      "Samsung"
+    ]
+  },
+  "source": "AWS Bedrock (Claude 3.5 Sonnet)"
+}

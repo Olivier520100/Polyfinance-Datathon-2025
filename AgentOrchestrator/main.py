@@ -33,7 +33,7 @@ class BedrockLLMAgentCallbacks(AgentCallbacks):
 
 
 tech_agent = BedrockLLMAgent(
-    BedrockLLMAgentOptions(AWS_SESSION_TOKEN
+    BedrockLLMAgentOptions(
         name="Tech Agent",
         streaming=True,
         description="Specializes in technology areas including software development, hardware, AI, \
