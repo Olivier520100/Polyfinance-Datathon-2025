@@ -31,7 +31,7 @@ class BedrockLLMAgentCallbacks(AgentCallbacks):
         # handle response streaming here
         print(token, end="", flush=True)
 
-
+"""
 tech_agent = BedrockLLMAgent(
     BedrockLLMAgentOptions(
         name="Tech Agent",
@@ -52,7 +52,7 @@ health_agent = BedrockLLMAgent(
     )
 )
 orchestrator.add_agent(health_agent)
-
+"""
 
 async def handle_request(
     _orchestrator: AgentSquad, _user_input: str, _user_id: str, _session_id: str

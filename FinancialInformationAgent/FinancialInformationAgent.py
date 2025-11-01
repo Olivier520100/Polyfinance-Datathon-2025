@@ -146,7 +146,6 @@ if __name__ == "__main__":
     event = {"company": "Microsoft"}
     result = lambda_handler(event, None)
     
-    # Afficher le résultat
     print("="*80)
     print(result['body'])
     print("="*80)
