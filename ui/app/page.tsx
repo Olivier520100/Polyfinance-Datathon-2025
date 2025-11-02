@@ -150,7 +150,7 @@ const CustomTreemapContent = ({ x, y, width, height, name, value, riskIndex }) =
             fill="#fff"
             fontSize={11}
           >
-            Risk: {risk.toFixed(0)}
+            Cap : {risk.toFixed(0)}
           </text>
         </>
       )}

@@ -12,6 +12,8 @@ from agent_squad.agents import (
 )
 from agent_squad.types import ConversationMessage, ParticipantRole
 
+AWS_SESSION_TOKEN = "IQoJb3JpZ2luX2VjEGoaCXVzLWVhc3QtMSJHMEUCIF8rt3lsD0WnB3aZsOcaUaqwGkHgpaxr2ld2xeuS2JhiAiEAtd8hI7qWJUGWP/JuqwRhOp7qYH3GX0xK3BexGsy3TNEqmQIIMhAAGgw5OTIzODI2MTgzMjciDIKUuy3we3+Av+ZQHCr2ATLtyE8frvQSeyWmRKPirUgdjpd0VA/O7qL5Qyo1oTg0oFdPwRQzFDBhv/hHuKRqFIBFyYpP3zSsd/9l7xM7+0idmzvdcS5emUfL9DSNiWWQA/nNq9+hEECZHUAfbzCwU0Ci8+zOYIFyksBLmCF0cKj7qFTQVK5hyzzYkU46moBGFDKJi3pZXp66gSQttIlvYa4JzTAqhS+uNV1gtO75GZ2jJD23XjjPHruunpnNTwFshiZE4dha9Q+yqdlxCD7oi28GbFueCZqcIpRg7JJkss5j1NNWVKUfef0VgERVZHs1knpQArt0oC5fAme1b/xDponKb593ETD6/pjIBjqdAaMa1lhGJHl9bC5GyXM6nUckvnjZthTtYyVU97AedQZ2MJdAKuY7+n67XVm5s5c/TYWJxo86WQB+2+CSP3Agn2UG55abV2Ld+YjK93vt63TdtuJMQ7hcvISmtt6w8OCYexBaNe+TbkSWT2p1pLn76zOZOBk1HdjqvNQLmKXH9j1j9kfsD76m+boVWv3QCoN198YBPnR+VK5Jh7C+RbQ="
+
 orchestrator = AgentSquad(
     options=AgentSquadConfig(
         LOG_AGENT_CHAT=True,
@@ -39,9 +41,11 @@ tech_agent = BedrockLLMAgent(
         description="Specializes in technology areas including software development, hardware, AI, \
   cybersecurity, blockchain, cloud computing, emerging tech innovations, and pricing/costs \
   related to technology products and services.",
-        callbacks=BedrockLLMAgentCallbacks(),
+        callbacks=BedrockLLMAgentCallbacks()
+        )
     )
-)
+    
+
 orchestrator.add_agent(tech_agent)
 
 health_agent = BedrockLLMAgent(
