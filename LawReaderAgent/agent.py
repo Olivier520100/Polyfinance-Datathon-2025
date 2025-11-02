@@ -69,13 +69,15 @@ class LawReaderAgent:
         for i, chunk in enumerate(text_chunks):
             print(f"Processing chunk {i+1}")
             response = self.client.converse(
-            modelId="global.anthropic.claude-sonnet-4-5-20250929-v1:0",
+            modelId=self.model_id,
             messages=[
                 {
                     "role": "user",
                     "content": [{"text" : f"""Analyze the following document (chunk {i+1}/{len(text_chunks)}): {chunk}. 
                                 Output ONLY a json with the following format relating to the effects
-                                of the laws passed in regards to specific sectors, companies and countries.
+                                of the laws passed in regards to specific sectors, companies and countries. These
+                                are the 11 sectors we are going to use : 'Information Technology, Communication Services, 
+                                Healthcare, Financials, Consumer Discretionary, Industrials, Energy, Materials, Consumer Staples, Utilities, Real Estate
                                 {{"countryOfEffect" : "country",
                                 "positivelyAffected": {{ // LEAVE EMPTY IF ONLY NEGATIVE EFFECTS
                                     "specificCompanies" : ["list", "of", "affectedCompanies"], // LEAVE EMPTY IF NO COMPANIES ARE MENTIONNED
