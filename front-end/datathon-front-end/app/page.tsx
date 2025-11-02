@@ -5,7 +5,8 @@ import { PieChart, Pie, Cell, ResponsiveContainer, Legend, Treemap } from 'recha
 import { ChevronDown, ChevronUp } from 'lucide-react';
 
 const SECTORS = [
-  'Technology',
+  'Information Technology',
+  'Communication Services',
   'Healthcare',
   'Financials',
   'Consumer Discretionary',
@@ -18,7 +19,8 @@ const SECTORS = [
 ];
 
 const SECTOR_COLORS = {
-  'Technology': '#3b82f6',
+  'Information Technology': '#3b82f6',
+  'Communication Services': '#14b8a6',
   'Healthcare': '#ef4444',
   'Financials': '#10b981',
   'Consumer Discretionary': '#f59e0b',
@@ -30,71 +32,76 @@ const SECTOR_COLORS = {
   'Real Estate': '#6366f1'
 };
 
-// Fixed portfolio data with specific percentages
 const portfolioData = [
-  { name: 'Technology', value: 28.5, color: SECTOR_COLORS['Technology'] },
-  { name: 'Healthcare', value: 18.2, color: SECTOR_COLORS['Healthcare'] },
-  { name: 'Financials', value: 15.7, color: SECTOR_COLORS['Financials'] },
-  { name: 'Consumer Discretionary', value: 12.3, color: SECTOR_COLORS['Consumer Discretionary'] },
-  { name: 'Industrials', value: 8.9, color: SECTOR_COLORS['Industrials'] },
-  { name: 'Energy', value: 6.4, color: SECTOR_COLORS['Energy'] },
-  { name: 'Materials', value: 4.2, color: SECTOR_COLORS['Materials'] },
-  { name: 'Consumer Staples', value: 3.1, color: SECTOR_COLORS['Consumer Staples'] },
-  { name: 'Utilities', value: 1.8, color: SECTOR_COLORS['Utilities'] },
-  { name: 'Real Estate', value: 0.9, color: SECTOR_COLORS['Real Estate'] }
+  { name: 'Information Technology', value: 30.0, color: SECTOR_COLORS['Information Technology'] },
+  { name: 'Communication Services', value: 9.0, color: SECTOR_COLORS['Communication Services'] }, // <--- ADD THIS
+  { name: 'Healthcare', value: 12.5, color: SECTOR_COLORS['Healthcare'] },
+  { name: 'Financials', value: 13.0, color: SECTOR_COLORS['Financials'] },
+  { name: 'Consumer Discretionary', value: 10.6, color: SECTOR_COLORS['Consumer Discretionary'] },
+  { name: 'Industrials', value: 8.0, color: SECTOR_COLORS['Industrials'] },
+  { name: 'Energy', value: 4.0, color: SECTOR_COLORS['Energy'] },
+  { name: 'Materials', value: 2.0, color: SECTOR_COLORS['Materials'] },
+  { name: 'Consumer Staples', value: 6.0, color: SECTOR_COLORS['Consumer Staples'] },
+  { name: 'Utilities', value: 1.5, color: SECTOR_COLORS['Utilities'] },
+  { name: 'Real Estate', value: 2.5, color: SECTOR_COLORS['Real Estate'] }
 ].sort((a, b) => b.value - a.value);
 
 const getSectorStocks = (sector) => {
   // Fixed stock data for each sector
   const sectorStockData = {
-    'Technology': [
-      { ticker: 'AAPL', riskIndex: 82.3, exposureValue: 450000, contractorExposure: '18.5%', timeFactor: 3.2 },
-      { ticker: 'MSFT', riskIndex: 75.1, exposureValue: 380000, contractorExposure: '22.1%', timeFactor: 2.8 },
-      { ticker: 'NVDA', riskIndex: 68.9, exposureValue: 290000, contractorExposure: '15.3%', timeFactor: 4.1 },
-      { ticker: 'GOOGL', riskIndex: 54.2, exposureValue: 220000, contractorExposure: '12.7%', timeFactor: 2.3 },
-      { ticker: 'META', riskIndex: 48.6, exposureValue: 180000, contractorExposure: '9.4%', timeFactor: 2.1 }
+    'Information Technology': [
+      { ticker: 'AAPL', riskIndex: 0.3, exposureValue: 0.4, contractorExposure: '0.2', timeFactor: 0.2 },
+      { ticker: 'MSFT', riskIndex: 0.1, exposureValue: 0.4, contractorExposure: '0.2', timeFactor: 0.8 },
+      { ticker: 'NVDA', riskIndex: 0.9, exposureValue: 0.4, contractorExposure: '0.2', timeFactor: 0.1 },
+      { ticker: 'GOOGL', riskIndex: 0.2, exposureValue: 0.4, contractorExposure: '0.2', timeFactor: 0.3 },
+      { ticker: 'META', riskIndex: 0.6, exposureValue: 0.4, contractorExposure: '0.2', timeFactor: 0.1 }
     ],
     'Healthcare': [
-      { ticker: 'JNJ', riskIndex: 71.4, exposureValue: 320000, contractorExposure: '28.3%', timeFactor: 3.5 },
-      { ticker: 'UNH', riskIndex: 65.8, exposureValue: 275000, contractorExposure: '31.2%', timeFactor: 2.9 },
-      { ticker: 'PFE', riskIndex: 58.2, exposureValue: 195000, contractorExposure: '24.6%', timeFactor: 2.4 },
-      { ticker: 'ABBV', riskIndex: 52.9, exposureValue: 165000, contractorExposure: '19.8%', timeFactor: 2.7 }
+      { ticker: 'JNJ', riskIndex: 0.4, exposureValue: 0.4, contractorExposure: '0.2', timeFactor: 0.5 },
+      { ticker: 'UNH', riskIndex: 0.8, exposureValue: 0.4, contractorExposure: '0.2', timeFactor: 0.9 },
+      { ticker: 'PFE', riskIndex: 0.2, exposureValue: 0.4, contractorExposure: '0.2', timeFactor: 0.4 },
+      { ticker: 'ABBV', riskIndex: 0.9, exposureValue: 0.4, contractorExposure: '0.2', timeFactor: 0.7 }
     ],
     'Financials': [
-      { ticker: 'JPM', riskIndex: 79.1, exposureValue: 410000, contractorExposure: '14.2%', timeFactor: 3.8 },
-      { ticker: 'BAC', riskIndex: 72.5, exposureValue: 325000, contractorExposure: '16.7%', timeFactor: 3.1 },
-      { ticker: 'WFC', riskIndex: 66.3, exposureValue: 248000, contractorExposure: '13.9%', timeFactor: 2.6 },
-      { ticker: 'GS', riskIndex: 61.7, exposureValue: 198000, contractorExposure: '11.5%', timeFactor: 2.9 }
+      { ticker: 'JPM', riskIndex: 0.1, exposureValue: 0.4, contractorExposure: '0.2', timeFactor: 0.8 },
+      { ticker: 'BAC', riskIndex: 0.5, exposureValue: 0.4, contractorExposure: '0.2', timeFactor: 0.1 },
+      { ticker: 'WFC', riskIndex: 0.3, exposureValue: 0.4, contractorExposure: '0.2', timeFactor: 0.6 },
+      { ticker: 'GS', riskIndex: 0.7, exposureValue: 0.4, contractorExposure: '0.2', timeFactor: 0.9 }
     ],
     'Consumer Discretionary': [
-      { ticker: 'AMZN', riskIndex: 77.8, exposureValue: 365000, contractorExposure: '21.4%', timeFactor: 3.6 },
-      { ticker: 'TSLA', riskIndex: 85.2, exposureValue: 298000, contractorExposure: '25.8%', timeFactor: 4.3 },
-      { ticker: 'HD', riskIndex: 56.4, exposureValue: 187000, contractorExposure: '17.2%', timeFactor: 2.2 }
+      { ticker: 'AMZN', riskIndex: 0.8, exposureValue: 0.4, contractorExposure: '0.2', timeFactor: 0.6 },
+      { ticker: 'TSLA', riskIndex: 0.2, exposureValue: 0.4, contractorExposure: '0.2', timeFactor: 0.3 },
+      { ticker: 'HD', riskIndex: 0.4, exposureValue: 0.4, contractorExposure: '0.2', timeFactor: 0.2 }
     ],
     'Industrials': [
-      { ticker: 'CAT', riskIndex: 69.5, exposureValue: 245000, contractorExposure: '32.6%', timeFactor: 3.3 },
-      { ticker: 'BA', riskIndex: 81.2, exposureValue: 215000, contractorExposure: '38.4%', timeFactor: 4.1 },
-      { ticker: 'HON', riskIndex: 58.9, exposureValue: 176000, contractorExposure: '27.1%', timeFactor: 2.8 }
+      { ticker: 'CAT', riskIndex: 0.5, exposureValue: 0.4, contractorExposure: '0.2', timeFactor: 0.3 },
+      { ticker: 'BA', riskIndex: 0.2, exposureValue: 0.4, contractorExposure: '0.2', timeFactor: 0.1 },
+      { ticker: 'HON', riskIndex: 0.9, exposureValue: 0.4, contractorExposure: '0.2', timeFactor: 0.8 }
     ],
     'Energy': [
-      { ticker: 'XOM', riskIndex: 73.6, exposureValue: 298000, contractorExposure: '29.3%', timeFactor: 3.4 },
-      { ticker: 'CVX', riskIndex: 68.1, exposureValue: 234000, contractorExposure: '26.7%', timeFactor: 3.1 }
+      { ticker: 'XOM', riskIndex: 0.6, exposureValue: 0.4, contractorExposure: '0.2', timeFactor: 0.4 },
+      { ticker: 'CVX', riskIndex: 0.1, exposureValue: 0.4, contractorExposure: '0.2', timeFactor: 0.1 }
     ],
     'Materials': [
-      { ticker: 'LIN', riskIndex: 62.3, exposureValue: 189000, contractorExposure: '22.9%', timeFactor: 2.7 },
-      { ticker: 'APD', riskIndex: 57.8, exposureValue: 145000, contractorExposure: '19.5%', timeFactor: 2.4 }
+      { ticker: 'LIN', riskIndex: 0.3, exposureValue: 0.4, contractorExposure: '0.2', timeFactor: 0.7 },
+      { ticker: 'APD', riskIndex: 0.8, exposureValue: 0.4, contractorExposure: '0.2', timeFactor: 0.4 }
     ],
     'Consumer Staples': [
-      { ticker: 'PG', riskIndex: 45.2, exposureValue: 167000, contractorExposure: '14.3%', timeFactor: 1.9 },
-      { ticker: 'KO', riskIndex: 41.8, exposureValue: 128000, contractorExposure: '12.6%', timeFactor: 1.7 }
+      { ticker: 'PG', riskIndex: 0.2, exposureValue: 0.4, contractorExposure: '0.2', timeFactor: 0.9 },
+      { ticker: 'KO', riskIndex: 0.8, exposureValue: 0.4, contractorExposure: '0.2', timeFactor: 0.7 }
     ],
     'Utilities': [
-      { ticker: 'NEE', riskIndex: 52.4, exposureValue: 135000, contractorExposure: '23.8%', timeFactor: 2.3 },
-      { ticker: 'DUK', riskIndex: 48.7, exposureValue: 108000, contractorExposure: '21.2%', timeFactor: 2.1 }
+      { ticker: 'NEE', riskIndex: 0.4, exposureValue: 0.4, contractorExposure: '0.2', timeFactor: 0.3 },
+      { ticker: 'DUK', riskIndex: 0.7, exposureValue: 0.4, contractorExposure: '0.2', timeFactor: 0.1 }
     ],
     'Real Estate': [
-      { ticker: 'AMT', riskIndex: 55.9, exposureValue: 98000, contractorExposure: '18.4%', timeFactor: 2.5 },
-      { ticker: 'PLD', riskIndex: 51.3, exposureValue: 76000, contractorExposure: '16.7%', timeFactor: 2.2 }
+      { ticker: 'AMT', riskIndex: 0.9, exposureValue: 0.4, contractorExposure: '0.2', timeFactor: 0.5 },
+      { ticker: 'PLD', riskIndex: 0.3, exposureValue: 0.4, contractorExposure: '0.2', timeFactor: 0.2 }
+    ],
+    'Communication Services': [
+      { ticker: 'GOOGL', riskIndex: 0.2, exposureValue: 0.4, contractorExposure: '0.2', timeFactor: 0.3 },
+      { ticker: 'META', riskIndex: 0.6, exposureValue: 0.4, contractorExposure: '0.2', timeFactor: 0.1 },
+      { ticker: 'NFLX', riskIndex: 0.5, exposureValue: 0.4, contractorExposure: '0.2', timeFactor: 0.5 }
     ]
   };
   
@@ -168,9 +175,9 @@ export default function PortfolioRiskDashboard() {
 
   const columnTooltips = {
     'Total Risk Index': 'Composite score of all risk factors for this stock',
-    'Exposure Value': 'Total dollar amount invested in this position',
-    'Contractor Exposure': 'Percentage of revenue from contractor relationships',
-    'Time Factor': 'Weighted time-based risk multiplier'
+    'Direct Exposure': 'Effect factor of the laws passed on the stock',
+    'Indirect Exposure': 'Effect factor of the laws passed on entities related to this stock',
+    'Time Factor': 'Time factor is based on the recency of the laws (recency leads to volatility)'
   };
 
   return (
@@ -240,7 +247,7 @@ export default function PortfolioRiskDashboard() {
                   <Pie
                     data={portfolioData}
                     cx="50%"
-                    cy="42%"
+                    cy="35%"
                     innerRadius={90}
                     fill="#8884d8"
                     dataKey="value"
@@ -276,7 +283,7 @@ export default function PortfolioRiskDashboard() {
                           className="text-sm font-light"
                           style={{
                             opacity: hoveredSector !== null ? 0 : 1,
-                            transition: 'opacity 0.1s ease-in-out'
+                            transition: 'opacity 200ms ease-in-out'
                           }}
                         >
                           {`${value.toFixed(1)}%`}
@@ -288,7 +295,7 @@ export default function PortfolioRiskDashboard() {
                       strokeWidth: 1,
                       style: {
                         opacity: hoveredSector !== null ? 0 : 1,
-                        transition: 'opacity 0.1s ease-in-out'
+                        transition: 'opacity 200ms ease-in-out'
                       }
                     }}
                   >
@@ -438,7 +445,7 @@ export default function PortfolioRiskDashboard() {
                             {stock.contractorExposure}
                           </td>
                           <td className="p-3 text-zinc-600 dark:text-zinc-400 text-sm font-light">
-                            {stock.timeFactor}x
+                            {stock.timeFactor}
                           </td>
                         </tr>
                       ))}
