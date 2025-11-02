@@ -439,7 +439,7 @@ export default function PortfolioRiskDashboard() {
                             </span>
                           </td>
                           <td className="p-3 text-zinc-600 dark:text-zinc-400 text-sm font-light">
-                            ${stock.exposureValue.toLocaleString()}
+                            {stock.exposureValue.toLocaleString()}
                           </td>
                           <td className="p-3 text-zinc-600 dark:text-zinc-400 text-sm font-light">
                             {stock.contractorExposure}
