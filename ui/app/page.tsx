@@ -34,7 +34,7 @@ const SECTOR_COLORS = {
 
 const portfolioData = [
   { name: 'Information Technology', value: 30.0, color: SECTOR_COLORS['Information Technology'] },
-  { name: 'Communication Services', value: 9.0, color: SECTOR_COLORS['Communication Services'] }, // <--- ADD THIS
+  { name: 'Communication Services', value: 9.0, color: SECTOR_COLORS['Communication Services'] },
   { name: 'Healthcare', value: 12.5, color: SECTOR_COLORS['Healthcare'] },
   { name: 'Financials', value: 13.0, color: SECTOR_COLORS['Financials'] },
   { name: 'Consumer Discretionary', value: 10.6, color: SECTOR_COLORS['Consumer Discretionary'] },
@@ -114,7 +114,7 @@ const getRiskColor = (risk) => {
   return '#ef4444';
 };
 
-const CustomTreemapContent = ({ x, y, width, height, name, value, riskIndex }) => {
+const CustomTreemapContent = ({ x, y, width, height, name, value, riskIndex }: any) => {
   if (width < 30 || height < 20) return null;
   
   // Get riskIndex from the data
@@ -255,30 +255,22 @@ export default function PortfolioRiskDashboard() {
                     onMouseLeave={() => setHoveredSector(null)}
                     onClick={(data) => setActiveSection(data.name)}
                     className="cursor-pointer"
-                    activeIndex={hoveredSector}
-                    activeShape={{
-                      outerRadius: 175,
-                      style: {
-                        filter: 'drop-shadow(0 6px 16px rgba(0, 0, 0, 0.12))',
-                        transition: 'all 0.1s cubic-bezier(0.4, 0, 0.2, 1)'
-                      }
-                    }}
                     outerRadius={165}
                     animationDuration={800}
                     animationBegin={0}
                     isAnimationActive={true}
-                    label={({ name, value, cx, cy, midAngle, innerRadius, outerRadius, index }) => {
+                    label={({ name, value, cx, cy, midAngle, innerRadius, outerRadius, index }: any) => {
                       const RADIAN = Math.PI / 180;
-                      const radius = outerRadius + 25;
-                      const x = cx + radius * Math.cos(-midAngle * RADIAN);
-                      const y = cy + radius * Math.sin(-midAngle * RADIAN);
+                      const radius = Number(outerRadius) + 25;
+                      const x = Number(cx) + radius * Math.cos(-Number(midAngle) * RADIAN);
+                      const y = Number(cy) + radius * Math.sin(-Number(midAngle) * RADIAN);
                       
                       return (
                         <text
                           x={x}
                           y={y}
                           fill="#52525b"
-                          textAnchor={x > cx ? 'start' : 'end'}
+                          textAnchor={x > Number(cx) ? 'start' : 'end'}
                           dominantBaseline="central"
                           className="text-sm font-light"
                           style={{
@@ -286,7 +278,7 @@ export default function PortfolioRiskDashboard() {
                             transition: 'opacity 200ms ease-in-out'
                           }}
                         >
-                          {`${value.toFixed(1)}%`}
+                          {`${Number(value).toFixed(1)}%`}
                         </text>
                       );
                     }}
@@ -304,7 +296,12 @@ export default function PortfolioRiskDashboard() {
                         key={`cell-${index}`}
                         fill={entry.color}
                         style={{
-                          filter: 'drop-shadow(0 2px 4px rgba(0, 0, 0, 0.06))'
+                          filter: hoveredSector === index 
+                            ? 'drop-shadow(0 6px 16px rgba(0, 0, 0, 0.12))' 
+                            : 'drop-shadow(0 2px 4px rgba(0, 0, 0, 0.06))',
+                          transform: hoveredSector === index ? 'scale(1.05)' : 'scale(1)',
+                          transformOrigin: 'center',
+                          transition: 'all 0.2s ease'
                         }}
                       />
                     ))}
@@ -349,7 +346,7 @@ export default function PortfolioRiskDashboard() {
                   data={getTreemapData(activeSection)}
                   dataKey="size"
                   stroke="#fff"
-                  content={<CustomTreemapContent />}
+                  content={<CustomTreemapContent {...({} as any)} />}
                 />
               </ResponsiveContainer>
               <div className="flex items-center gap-6 mt-4 text-sm">
