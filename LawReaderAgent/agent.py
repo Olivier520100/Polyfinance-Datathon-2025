@@ -5,61 +5,81 @@ from markitdown import MarkItDown
 from jsonschema import validate, ValidationError
 import json
 from langchain_text_splitters import RecursiveCharacterTextSplitter
+from bs4 import BeautifulSoup
+from bs4 import XMLParsedAsHTMLWarning
+import warnings
+from botocore.config import Config
+
+
+warnings.filterwarnings("ignore", category=XMLParsedAsHTMLWarning)
 
 class LawReaderAgent:
     schema = {
     "type": "object",
     "properties": {
-        "countryOfEffect": {"type": "string"},
-        "positivelyAffected": {
+        "regionOfEffect": {"type": "string"},
+        "sectors": {
             "type": "object",
-            "properties": {
-                "specificCompanies": {"type": "array", "items": {"type": "string"}},
-                "specificSectors": {"type": "array", "items": {"type": "string"}},
-                "lawsPassed": {"type": "array", "items": {"type": "string"}}
+            "patternProperties": {
+                "^(Information Technology|Communication Services|Healthcare|Financials|Consumer Discretionary|Industrials|Energy|Materials|Consumer Staples|Utilities|Real Estate)$": {
+                    "type": "object",
+                    "properties": {
+                        "positiveEffects": {
+                            "type": "array",
+                            "items": {"type": "string"}
+                        },
+                        "negativeEffects": {
+                            "type": "array",
+                            "items": {"type": "string"}
+                        },
+                        "timeline": {
+                            "type": "array",
+                            "items": {"type": "string"}
+                        }
+                    },
+                    "required": ["positiveEffects", "negativeEffects", "timeline"]
+                }
             },
-            "required": ["specificCompanies", "specificSectors", "lawsPassed"]
-        },
-        "negativelyAffected": {
-            "type": "object",
-            "properties": {
-                "specificCompanies": {"type": "array", "items": {"type": "string"}},
-                "specificSectors": {"type": "array", "items": {"type": "string"}},
-                "lawsPassed": {"type": "array", "items": {"type": "string"}}
-            },
-            "required": ["specificCompanies", "specificSectors", "lawsPassed"]
-        },
-        "timelineOfChanges": {"type": "object"}
+            "additionalProperties": False
+        }
     },
-    "required": ["countryOfEffect", "timelineOfChanges"]
+        "required": ["regionOfEffect", "sectors"]
     }
+
+    config = Config(read_timeout=300)
 
     def __init__(self, directory="directives/", model_id="global.anthropic.claude-sonnet-4-5-20250929-v1:0"):
         self.directory = directory
         self.model_id = model_id
         self.files = [directory + file for file in os.listdir(self.directory)]
         self.markdown = MarkItDown(enable_plugins=False)
-        self.client = boto3.client("bedrock-runtime")
+        self.client = boto3.client("bedrock-runtime", config=LawReaderAgent.config)
     
-    def get_laws_info(self):
-        laws_info = []
+    def complete_summary(self):
+        summaries_list = []
         for file in self.files:
-            text = self.get_text_from_file(file)
-            chunked_text = self.chunk_text(text)
-            response = self.summarize_text_content(chunked_text)
-            parsed_response = self.parse_text_response(response)
-            if self.is_valid_schema(parsed_response):
-                laws_info.append(json.loads(parsed_response))
-            else:
-                print(f"Error loading file {file}")
-        return laws_info
+            summaries_list.append(self.single_law_summary(file))
+        return summaries_list
     
-    def get_text_from_file(self, file):
-        return str(self.markdown.convert(file))
+    def single_law_summary(self, file):
+        text = self.retrieve_text_content(file)
+        chunked_text = self.chunk_text(text)
+        response = self.summarize_text_content(chunked_text)
+        parsed_response = self.parse_json_from_response(response)
+        if self.is_valid_schema(parsed_response):
+            return parsed_response
+        else:
+            print(f"Invalid file format : {file}")
+
+    
+    def retrieve_text_content(self, file):
+        html = str(self.markdown.convert(file))
+        text = BeautifulSoup(html, "html.parser").get_text(separator=" ", strip=True)
+        return text
     
     def chunk_text(self, text):
         text_splitter = RecursiveCharacterTextSplitter(
-            chunk_size=180000,     
+            chunk_size=100000,     
             chunk_overlap=1000   
         )
         return text_splitter.split_text(text)
@@ -73,32 +93,86 @@ class LawReaderAgent:
             messages=[
                 {
                     "role": "user",
-                    "content": [{"text" : f"""Analyze the following document (chunk {i+1}/{len(text_chunks)}): {chunk}. 
-                                Output ONLY a json with the following format relating to the effects
-                                of the laws passed in regards to specific sectors, companies and countries. These
-                                are the 11 sectors we are going to use : 'Information Technology, Communication Services, 
-                                Healthcare, Financials, Consumer Discretionary, Industrials, Energy, Materials, Consumer Staples, Utilities, Real Estate
-                                {{"countryOfEffect" : "country",
-                                "positivelyAffected": {{ // LEAVE EMPTY IF ONLY NEGATIVE EFFECTS
-                                    "specificCompanies" : ["list", "of", "affectedCompanies"], // LEAVE EMPTY IF NO COMPANIES ARE MENTIONNED
-                                    "specificSectors" : ["list, "of", "sectors],
-                                    "lawsPassed": ["list", "of the laws that cause the positive effects] // LIMIT TO 15 WORDS
-                                }},
-                                "negativelyAffected": {{ // LEAVE EMPTY IF ONLY POSITIVE EFFECTS
-                                    "specificCompanies": ["list", "of", "affectedCompanies"], // LEAVE EMPTY IF NO COMPANIES ARE MENTIONNED
-                                    "specificSectors": ["list, "of", "sectors],
-                                    "lawsPassed": ["list", "of the laws that cause the negative effects] // LIMIT TO 15 WORDS
-                                }},
-                                "timelineOfChanges" : {{ // LIMIT TO THE 5 MOST IMPORTANT DATES
-                                "date#1" : "effect in question"
-                                "date#2" : "",
-                                "etc..." :""
+                    "content": [{"text": f"""
+                                Analyze the following document (chunk {i+1}/{len(text_chunks)}): {chunk}.
+                                Output ONLY a JSON in the following format, relating to the effects of the laws passed in regards to specific sectors and countries.
+
+                                These are the 11 sectors we will use:
+                                'Information Technology, Communication Services, Healthcare, Financials, Consumer Discretionary, Industrials, Energy, Materials, Consumer Staples, Utilities, Real Estate'
+
+                                {{
+                                "regionOfEffect": "region",
+                                "sectors": {{
+                                    "Information Technology": {{
+                                    "positiveEffects": [
+                                        // Each element should mention a law/effect that would have a positive outcome (limit 20 words)
+                                        // LEAVE EACH LIST EMPTY IF THE REGULATIONS DON'T APPLY TO THE SECTOR,
+                                    ],
+                                    "negativeEffects": [
+                                        // Each element should mention a law/effect that would have a negative outcome (limit 20 words)
+                                    ],
+                                    "timeline": [
+                                        // Up to 10 (ONLY RELEVANT DATES) key dates that tell us when the effects take place (Example : XXXX-XX-XX : Negative effect #3 takes places
+                                        // If the effects take place based on a single law, you can have something like     "2021-11-28: Transposition deadline","2022-05-28: Application date"
+                                    ]
+                                    }},
+                                    "Communication Services": {{
+                                    "positiveEffects": [],
+                                    "negativeEffects": [],
+                                    "timeline": []
+                                    }},
+                                    "Healthcare": {{
+                                    "positiveEffects": [],
+                                    "negativeEffects": [],
+                                    "timeline": []
+                                    }},
+                                    "Financials": {{
+                                    "positiveEffects": [],
+                                    "negativeEffects": [],
+                                    "timeline": []
+                                    }},
+                                    "Consumer Discretionary": {{
+                                    "positiveEffects": [],
+                                    "negativeEffects": [],
+                                    "timeline": []
+                                    }},
+                                    "Industrials": {{
+                                    "positiveEffects": [],
+                                    "negativeEffects": [],
+                                    "timeline": []
+                                    }},
+                                    "Energy": {{
+                                    "positiveEffects": [],
+                                    "negativeEffects": [],
+                                    "timeline": []
+                                    }},
+                                    "Materials": {{
+                                    "positiveEffects": [],
+                                    "negativeEffects": [],
+                                    "timeline": []
+                                    }},
+                                    "Consumer Staples": {{
+                                    "positiveEffects": [],
+                                    "negativeEffects": [],
+                                    "timeline": []
+                                    }},
+                                    "Utilities": {{
+                                    "positiveEffects": [],
+                                    "negativeEffects": [],
+                                    "timeline": []
+                                    }},
+                                    "Real Estate": {{
+                                    "positiveEffects": [],
+                                    "negativeEffects": [],
+                                    "timeline": []
+                                    }}
                                 }}
                                 }}
-                                Consider your previous cumulative output : {cumulative_output} (may be empty).
-                                You can remove, add and edit informations of the previous output based on information
-                                redundancy and relevance:
-                                """}]
+
+                                Consider your previous cumulative output: {cumulative_output} (may be empty).
+                                You can remove, add, or edit information from the previous output based on redundancy and relevance.
+                                """
+                                }]
                 }
             ],
             inferenceConfig={
@@ -111,7 +185,7 @@ class LawReaderAgent:
         return cumulative_output
         
     
-    def parse_text_response(self, text) -> str:
+    def parse_json_from_response(self, text) -> str:
     
         start = text.find('{')
         end = text.rfind('}')
@@ -133,5 +207,3 @@ class LawReaderAgent:
             print("JSON structure invalid:", e.message)
             return False
 
-agnet = LawReaderAgent()
-print(agnet.get_laws_info())

@@ -7,9 +7,9 @@ class S3Storage:
         self.bucket_name = bucket_name
         self.region_name = region_name
         self.s3 = boto3.client("s3", region_name=self.region_name)
-        self._ensure_bucket_exists()
+        self.ensure_bucket_exists()
 
-    def _ensure_bucket_exists(self):
+    def ensure_bucket_exists(self):
         try:
             self.s3.head_bucket(Bucket=self.bucket_name)
         except ClientError:
@@ -19,7 +19,7 @@ class S3Storage:
     def save_json(self, key, data):
         json_data = json.dumps(data)
         self.s3.put_object(Bucket=self.bucket_name, Key=key, Body=json_data, ContentType="application/json")
-        print(f"Saved to s3://{self.bucket_name}/{key}")
+        print(f"Saved to {self.bucket_name}/{key}")
 
     def load_json(self, key):
         response = self.s3.get_object(Bucket=self.bucket_name, Key=key)
