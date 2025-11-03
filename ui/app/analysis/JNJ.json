@@ -1,0 +1,11 @@
+{
+  "Ticker": "JNJ",
+  "Summary": "Johnson & Johnson (JNJ) analyzed 1 bill with 1 direct regulatory impact. Direct risk: -0.95. No indirect risks. Minimal legislative impact, indicating low overall risk exposure.",
+  "SummaryKeypoints": [
+    "REGULATION (EU) 2024/1689 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL imposes regulation. affecting operations in European Union. with short-term implementation The legislation states: \"As regards AI systems that are safety components of products, or which are themselves products, falling within the scope of certain Union harmonisation legislation listed in an annex to this Regulation, it is appropriate to classify them as high-risk under this Regulation if the product concerned undergoes the conformity assessment procedure with a third-party conformity assessment body pursuant to that relevant Union harmonisation legislation. In particular, such products are machinery, toys, lifts, equipment and protective systems intended for use in potentially explosive atmospheres, radio equipment, pressure equipment, recreational craft equipment, cableway installations, appliances burning gaseous fuels, medical devices, in vitro diagnostic medical devices, automotive and aviation.\""
+  ],
+  "DirectRiskFactor": -0.95,
+  "IndirectRiskFactor": 0,
+  "TimeFactor": 0.9,
+  "OverallRiskScore": -0.606
+}

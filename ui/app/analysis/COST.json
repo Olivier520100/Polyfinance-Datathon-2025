@@ -1,10 +1,11 @@
 {
   "Ticker": "COST",
-  "Summary": "Costco (COST) analyzed 6 bills; no direct or indirect impacts identified. Legislative landscape poses minimal risk with no significant regulatory threats detected.",
+  "Summary": "Costco (COST) analyzed 6 bills; no direct or indirect impacts identified. Zero direct and indirect risk assessed. No significant legislative threats or operational impacts detected.",
   "SummaryKeypoints": [
     "No significant law impacts identified"
   ],
   "DirectRiskFactor": 0,
   "IndirectRiskFactor": 0,
-  "TimeFactor": 0.75
+  "TimeFactor": 0.75,
+  "OverallRiskScore": -0.041
 }

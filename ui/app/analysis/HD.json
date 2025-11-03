@@ -1,0 +1,11 @@
+{
+  "Ticker": "HD",
+  "Summary": "Home Depot (HD) analyzed 6 bills; no direct or indirect impacts identified. Overall risk assessment: negligible. Company faces no legislative threats in current analysis.",
+  "SummaryKeypoints": [
+    "No significant law impacts identified"
+  ],
+  "DirectRiskFactor": 0,
+  "IndirectRiskFactor": 0,
+  "TimeFactor": 0.75,
+  "OverallRiskScore": -0.04
+}

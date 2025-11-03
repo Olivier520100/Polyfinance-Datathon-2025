@@ -1,0 +1,11 @@
+{
+  "Ticker": "V",
+  "Summary": "Visa Inc. (V) analyzed 1 bill with 1 direct tax impact increasing liability by 1%. Indirect risk is 0. Overall risk assessment: low direct financial exposure.",
+  "SummaryKeypoints": [
+    "H.R. 1 - One Big Beautiful Bill Act imposes 1% tax. affecting operations in United States. with short-term implementation The legislation states: \"There is hereby imposed on any remittance transfer a tax equal to 1 percent of the amount of such transfer.\""
+  ],
+  "DirectRiskFactor": -0.95,
+  "IndirectRiskFactor": 0,
+  "TimeFactor": 0.9,
+  "OverallRiskScore": -0.609
+}

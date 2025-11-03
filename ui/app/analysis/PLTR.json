@@ -1,0 +1,15 @@
+{
+  "Ticker": "PLTR",
+  "Summary": "Palantir Technologies (PLTR) analyzed 2 bills, facing 10 direct, 2 indirect impacts. Key subsidies: $1B, $650M, $400M. Overall risk: low direct (-0.3), high indirect (1.0).",
+  "SummaryKeypoints": [
+    "H.R. 1 - One Big Beautiful Bill Act provides $1,000,000,000 in subsidy. affecting operations in United States. with short-term implementation The legislation states: \"$1,000,000,000 for the expansion of programs to accelerate the procurement and fielding of innovative technologies;\"",
+    "H.R. 1 - One Big Beautiful Bill Act provides $650,000,000 in subsidy. affecting operations in United States. with short-term implementation The legislation states: \"$650,000,000 for the expansion of Mission Capabilities office joint prototyping and experimentation activities for military innovation;\"",
+    "H.R. 1 - One Big Beautiful Bill Act provides $400,000,000 in subsidy. affecting operations in United States. with short-term implementation The legislation states: \"$400,000,000 for the expansion of advanced command-and-control tools to combatant commands and military departments;\"",
+    "H.R. 1 - One Big Beautiful Bill Act provides $500,000,000 in subsidy. affecting operations in United States. with short-term implementation The legislation states: \"$500,000,000 for the accelerated development and integration of advanced 5G/6G technologies for military use;\"",
+    "REGULATION (EU) 2024/1689 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL imposes regulation. affecting operations in European Union. with short-term implementation The legislation states: \"Member States should lay down and notify to the Commission the rules on penalties, including administrative fines, and ensure that they are properly and effectively implemented by the date of application of this Regulation. Therefore the provisions on penalties should apply from 2 August 2025.\""
+  ],
+  "DirectRiskFactor": -0.299,
+  "IndirectRiskFactor": 1.0,
+  "TimeFactor": 1.0,
+  "OverallRiskScore": 0.085
+}

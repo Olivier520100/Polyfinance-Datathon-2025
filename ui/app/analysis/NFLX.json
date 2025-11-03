@@ -1,0 +1,12 @@
+{
+  "Ticker": "NFLX",
+  "Summary": "Netflix analyzed 1 bill with 2 direct regulatory impacts. No indirect effects. Direct risk: -1.0. Regulatory changes may affect operations, but financial impact is currently neutral.",
+  "SummaryKeypoints": [
+    "REGULATION (EU) 2024/1689 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL imposes regulation. affecting operations in European Union. with short-term implementation The legislation states: \"deployers who use an AI system to generate or manipulate image, audio or video content that appreciably resembles existing persons, objects, places, entities or events and would falsely appear to a person to be authentic or truthful (deep fakes), should also clearly and distinguishably disclose that the content has been artificially created or manipulated by labelling the AI output accordingly and disclosing its artificial origin.\"",
+    "REGULATION (EU) 2024/1689 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL imposes regulation. affecting operations in European Union. with short-term implementation The legislation states: \"it is also appropriate to envisage a similar disclosure obligation in relation to AI-generated or manipulated text to the extent it is published with the purpose of informing the public on matters of public interest unless the AI-generated content has undergone a process of human review or editorial control and a natural or legal person holds editorial responsibility for the publication of the content.\""
+  ],
+  "DirectRiskFactor": -1.0,
+  "IndirectRiskFactor": 0,
+  "TimeFactor": 0.9,
+  "OverallRiskScore": -0.635
+}

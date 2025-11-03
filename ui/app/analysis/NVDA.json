@@ -1,11 +1,11 @@
 {
-  "Ticker": "AAPL",
-  "Summary": "Apple Inc. analyzed 1 bill, facing direct risk (score: -0.95) with 1 impact: a \u20ac15,000,000 fine. No indirect risks. Overall risk: high due to significant financial penalty exposure.",
+  "Ticker": "NVDA",
+  "Summary": "Nvidia (NVDA) faces direct legislative risk from 1 bill, incurring a \u20ac15M fine. No indirect risks. Overall risk: high due to significant financial impact.",
   "SummaryKeypoints": [
     "REGULATION (EU) 2024/1689 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL establishes \u20ac15,000,000 fine. affecting operations in European Union. with short-term implementation The legislation states: \"The Commission may impose on providers of general-purpose AI models fines not exceeding 3 % of their annual total worldwide turnover in the preceding financial year or EUR 15 000 000, whichever is higher.\""
   ],
   "DirectRiskFactor": -0.95,
   "IndirectRiskFactor": 0,
   "TimeFactor": 0.9,
-  "OverallRiskScore": -0.613
+  "OverallRiskScore": -0.602
 }

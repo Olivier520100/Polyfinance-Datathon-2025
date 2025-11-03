@@ -1,0 +1,11 @@
+{
+  "Ticker": "MA",
+  "Summary": "Mastercard (MA) faces direct legislative risk (-0.95) from 1 analyzed bill, with 1 direct tax impact increasing by 1%, no indirect effects; overall risk is low.",
+  "SummaryKeypoints": [
+    "H.R. 1 - One Big Beautiful Bill Act imposes 1% tax. affecting operations in United States. with short-term implementation The legislation states: \"There is hereby imposed on any remittance transfer a tax equal to 1 percent of the amount of such transfer.\""
+  ],
+  "DirectRiskFactor": -0.95,
+  "IndirectRiskFactor": 0,
+  "TimeFactor": 0.9,
+  "OverallRiskScore": -0.606
+}

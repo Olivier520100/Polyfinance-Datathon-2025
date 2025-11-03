@@ -1,0 +1,11 @@
+{
+  "Ticker": "WMT",
+  "Summary": "Walmart (WMT) analysis of 6 bills shows 0 direct and 0 indirect impacts. No significant legislative risks identified. Overall risk assessment: low.",
+  "SummaryKeypoints": [
+    "No significant law impacts identified"
+  ],
+  "DirectRiskFactor": 0,
+  "IndirectRiskFactor": 0,
+  "TimeFactor": 0.75,
+  "OverallRiskScore": -0.043
+}

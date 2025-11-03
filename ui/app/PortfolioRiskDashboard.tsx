@@ -4,7 +4,7 @@ import React, { useState, useEffect } from "react";
 import { PieChart, Pie, Cell, ResponsiveContainer, Treemap } from "recharts";
 import { ChevronDown, ChevronUp } from "lucide-react";
 
-const SECTOR_COLORS = {
+const SECTOR_COLORS: Record<string, string> = {
   "Information Technology": "#3b82f6",
   "Communication Services": "#14b8a6",
   Healthcare: "#ef4444",
@@ -18,21 +18,16 @@ const SECTOR_COLORS = {
   "Real Estate": "#6366f1",
 };
 
-const getRiskColor = (risk) => {
-  // Risk should be between -1 and 1
-  // -1 to 0: red to white
-  // 0 to 1: white to green
+const getRiskColor = (risk: number): string => {
   const clampedRisk = Math.max(-1, Math.min(1, risk));
 
   if (clampedRisk < 0) {
-    // Red to white: -1 (red) to 0 (white)
     const intensity = Math.abs(clampedRisk);
     const r = 255;
     const g = Math.round(255 * (1 - intensity));
     const b = Math.round(255 * (1 - intensity));
     return `rgb(${r}, ${g}, ${b})`;
   } else {
-    // White to green: 0 (white) to 1 (green)
     const intensity = clampedRisk;
     const r = Math.round(255 * (1 - intensity));
     const g = 255;
@@ -56,7 +51,6 @@ const CustomTreemapContent = ({
   const bgColor = getRiskColor(riskIndex || 0);
   const risk = riskIndex || 0;
 
-  // Determine text color based on background brightness
   const getTextColor = () => {
     if (risk < -0.5 || risk > 0.5) return "#fff";
     return "#000";
@@ -100,33 +94,72 @@ const CustomTreemapContent = ({
   );
 };
 
+interface Company {
+  ticker: string;
+  company: string;
+  gics_sector: string;
+  weight: string;
+}
+
+interface Analysis {
+  DirectRiskFactor: number;
+  IndirectRiskFactor: number;
+  TimeFactor: number;
+  Summary: string;
+  SummaryKeypoints: string[];
+}
+
 interface Props {
-  initialData: any;
-  initialAnalysis: any;
+  initialData: {
+    company_details: Company[];
+  };
+  initialAnalysis: Record<string, Analysis>;
+}
+
+interface PortfolioDataItem {
+  name: string;
+  value: number;
+  color: string;
+  [key: string]: string | number;
+}
+
+interface Stock {
+  ticker: string;
+  company: string;
+  riskIndex: number;
+  exposureValue: number;
+  directRisk: number;
+  indirectRisk: number;
+  timeFactor: number;
+}
+
+interface SummaryItem {
+  ticker: string;
+  summary: string;
+  keypoints: string[];
 }
 
 export function PortfolioRiskDashboard({
   initialData,
   initialAnalysis,
 }: Props) {
-  const [activeSection, setActiveSection] = useState("portfolio");
-  const [hoveredSector, setHoveredSector] = useState(null);
-  const [sectorDropdownOpen, setSectorDropdownOpen] = useState(false);
-  const [tooltipVisible, setTooltipVisible] = useState(null);
-  const [selectedStock, setSelectedStock] = useState(null);
+  const [activeSection, setActiveSection] = useState<string>("portfolio");
+  const [hoveredSector, setHoveredSector] = useState<number | null>(null);
+  const [sectorDropdownOpen, setSectorDropdownOpen] = useState<boolean>(false);
+  const [tooltipVisible, setTooltipVisible] = useState<string | null>(null);
+  const [selectedStock, setSelectedStock] = useState<string | null>(null);
 
-  const [portfolioData, setPortfolioData] = useState([]);
-  const [companyData, setCompanyData] = useState([]);
-  const [analysisData, setAnalysisData] = useState({});
-  const [sectors, setSectors] = useState([]);
+  const [portfolioData, setPortfolioData] = useState<PortfolioDataItem[]>([]);
+  const [companyData, setCompanyData] = useState<Company[]>([]);
+  const [analysisData, setAnalysisData] = useState<Record<string, Analysis>>({});
+  const [sectors, setSectors] = useState<string[]>([]);
 
   useEffect(() => {
     if (initialData && initialAnalysis) {
       setCompanyData(initialData.company_details);
       setAnalysisData(initialAnalysis);
 
-      // Calculate sector composition
-      const sectorMap = {};
+      const sectorMap: Record<string, number> = {};
       initialData.company_details.forEach((company) => {
         const sector = company.gics_sector;
         const weight = parseFloat(company.weight.replace(",", "."));
@@ -139,7 +172,7 @@ export function PortfolioRiskDashboard({
       const portfolioArray = Object.entries(sectorMap)
         .map(([name, value]) => ({
           name,
-          value: Number(value) * 100,
+          value: value * 100,
           color: SECTOR_COLORS[name] || "#6b7280",
         }))
         .sort((a, b) => b.value - a.value);
@@ -149,7 +182,7 @@ export function PortfolioRiskDashboard({
     }
   }, [initialData, initialAnalysis]);
 
-  const getSectorStocks = (sector) => {
+  const getSectorStocks = (sector: string): Stock[] => {
     return companyData
       .filter((company) => company.gics_sector === sector)
       .map((company) => {
@@ -157,6 +190,8 @@ export function PortfolioRiskDashboard({
           DirectRiskFactor: 0,
           IndirectRiskFactor: 0,
           TimeFactor: 0,
+          Summary: '',
+          SummaryKeypoints: []
         };
 
         const weight = parseFloat(company.weight.replace(",", "."));
@@ -177,17 +212,17 @@ export function PortfolioRiskDashboard({
       .sort((a, b) => b.exposureValue - a.exposureValue);
   };
 
-  const getTreemapData = (sector) => {
+  const getTreemapData = (sector: string) => {
     const stocks = getSectorStocks(sector);
     return stocks.map((stock) => ({
       name: stock.ticker,
-      size: stock.exposureValue * 100, // Size by portfolio weight
-      riskIndex: stock.riskIndex, // Color by risk index
+      size: stock.exposureValue * 100,
+      riskIndex: stock.riskIndex,
       ticker: stock.ticker,
     }));
   };
 
-  const getSectorSummary = (sector) => {
+  const getSectorSummary = (sector: string): SummaryItem[] => {
     const stocks = getSectorStocks(sector);
     const summaries = stocks
       .map((stock) => {
@@ -200,14 +235,26 @@ export function PortfolioRiskDashboard({
             }
           : null;
       })
-      .filter(Boolean);
+      .filter((item): item is SummaryItem => item !== null);
 
     return summaries;
   };
 
-  const columnTooltips = {
-    "Total Risk Index":
-      "Composite score: (Direct + Indirect) / 2 × Time Factor",
+  const getCurrentSectorExposure = (sector: string): number => {
+    const stocks = getSectorStocks(sector);
+    let totalWeightedRisk = 0;
+    let totalWeight = 0;
+    
+    stocks.forEach(stock => {
+      totalWeightedRisk += stock.riskIndex * stock.exposureValue;
+      totalWeight += stock.exposureValue;
+    });
+    
+    return totalWeight > 0 ? totalWeightedRisk / totalWeight : 0;
+  };
+
+  const columnTooltips: Record<string, string> = {
+    "Total Risk Index": "Composite score: (Direct + Indirect) / 2 × Time Factor",
     "Portfolio Weight": "Percentage of total portfolio allocated to this stock",
     "Direct Risk": "Direct regulatory impact on the company",
     "Indirect Risk": "Indirect impact through suppliers/subsidiaries",
@@ -219,9 +266,9 @@ export function PortfolioRiskDashboard({
       {/* Sidebar */}
       <div className="w-64 bg-white dark:bg-zinc-800 border-r border-zinc-200/50 dark:border-zinc-700/50 flex flex-col">
         {/* Logo */}
-        <div className="h-20 flex items-center justify-center border-b border-zinc-200/50 dark:border-zinc-700/50">
-          <div className="w-32 h-12 bg-zinc-100 dark:bg-zinc-700/50 rounded flex items-center justify-center text-zinc-400 dark:text-zinc-500 text-sm font-light">
-            <img src="/content.png" className="h-12 w-100"/>
+        <div className="h-24 flex items-center justify-center border-b border-zinc-200/50 dark:border-zinc-700/50">
+          <div className="inline-flex items-center justify-center bg-zinc-100 dark:bg-zinc-700/50 rounded text-zinc-400 dark:text-zinc-500 text-sm font-light p-2">
+            <img src="/content.png" alt="Logo" className="h-16 w-auto" />
           </div>
         </div>
 
@@ -442,57 +489,98 @@ export function PortfolioRiskDashboard({
 
             {/* Bottom Section */}
             <div className="grid grid-cols-3 gap-6" style={{ height: "60vh" }}>
-              {/* AI Overview */}
-              <div className="col-span-1 bg-white dark:bg-zinc-800 rounded-lg p-6 overflow-auto">
-                <h2 className="text-lg font-light text-zinc-800 dark:text-white mb-4">
-                  AI Analysis
-                </h2>
-                {selectedStock ? (
-                  <div className="text-zinc-500 dark:text-zinc-500 space-y-4 text-sm font-light">
-                    {getSectorSummary(activeSection)
-                      .filter((item) => item.ticker === selectedStock)
-                      .map((item, idx) => (
-                        <div key={idx}>
-                          <div className="flex items-center justify-between mb-3">
-                            <div className="font-mono font-medium text-zinc-700 dark:text-white text-lg">
-                              {item.ticker}
+              {/* Left Column - AI Overview + Sector Exposure */}
+              <div className="col-span-1 flex flex-col gap-6">
+                {/* AI Overview */}
+                <div className="bg-white dark:bg-zinc-800 rounded-lg p-6 overflow-auto" style={{ maxHeight: "45vh" }}>
+                  <h2 className="text-lg font-light text-zinc-800 dark:text-white mb-4">
+                    AI Analysis
+                  </h2>
+                  {selectedStock ? (
+                    <div className="text-zinc-500 dark:text-zinc-500 space-y-4 text-sm font-light">
+                      {getSectorSummary(activeSection)
+                        .filter((item) => item.ticker === selectedStock)
+                        .map((item, idx) => (
+                          <div key={idx}>
+                            <div className="flex items-center justify-between mb-3">
+                              <div className="font-mono font-medium text-zinc-700 dark:text-white text-lg">
+                                {item.ticker}
+                              </div>
+                              <button
+                                onClick={() => setSelectedStock(null)}
+                                className="text-zinc-400 hover:text-zinc-600 dark:hover:text-zinc-300 text-xs"
+                              >
+                                Clear
+                              </button>
                             </div>
-                            <button
-                              onClick={() => setSelectedStock(null)}
-                              className="text-zinc-400 hover:text-zinc-600 dark:hover:text-zinc-300 text-xs"
-                            >
-                              Clear
-                            </button>
+                            <p className="mb-4 text-sm leading-relaxed">
+                              {item.summary}
+                            </p>
+                            {item.keypoints.length > 0 && (
+                              <div>
+                                <h3 className="font-medium text-zinc-700 dark:text-white mb-2 text-sm">
+                                  Key Points:
+                                </h3>
+                                <ul className="space-y-2 text-sm">
+                                  {item.keypoints.map((point, pidx) => (
+                                    <li
+                                      key={pidx}
+                                      className="pl-3 border-l-2 border-zinc-300 dark:border-zinc-600"
+                                    >
+                                      {point}
+                                    </li>
+                                  ))}
+                                </ul>
+                              </div>
+                            )}
                           </div>
-                          <p className="mb-4 text-sm leading-relaxed">
-                            {item.summary}
-                          </p>
-                          {item.keypoints.length > 0 && (
-                            <div>
-                              <h3 className="font-medium text-zinc-700 dark:text-white mb-2 text-sm">
-                                Key Points:
-                              </h3>
-                              <ul className="space-y-2 text-sm">
-                                {item.keypoints.map((point, pidx) => (
-                                  <li
-                                    key={pidx}
-                                    className="pl-3 border-l-2 border-zinc-300 dark:border-zinc-600"
-                                  >
-                                    {point}
-                                  </li>
-                                ))}
-                              </ul>
-                            </div>
-                          )}
-                        </div>
-                      ))}
+                        ))}
+                    </div>
+                  ) : (
+                    <div className="text-zinc-400 dark:text-zinc-500 text-sm font-light text-center py-12">
+                      Click on a stock in the treemap or table to view its AI
+                      analysis
+                    </div>
+                  )}
+                </div>
+
+                {/* Sector Exposure Widget */}
+                <div className="bg-white dark:bg-zinc-800 rounded-lg p-6 flex-shrink-0">
+                  <div className="relative inline-block mb-3">
+                    <h2 
+                      className="text-lg font-light text-zinc-800 dark:text-white cursor-help"
+                      onMouseEnter={() => setTooltipVisible('sector-exposure')}
+                      onMouseLeave={() => setTooltipVisible(null)}
+                    >
+                      Sector Exposure
+                    </h2>
+                    {tooltipVisible === 'sector-exposure' && (
+                      <div className="absolute z-10 top-full mt-1 left-0 bg-zinc-900 text-white text-xs p-2 rounded shadow-lg w-64 whitespace-normal font-light">
+                        Weighted average risk index for this sector, calculated by multiplying each stock's risk index by its portfolio weight and dividing by total sector weight
+                      </div>
+                    )}
                   </div>
-                ) : (
-                  <div className="text-zinc-400 dark:text-zinc-500 text-sm font-light text-center py-12">
-                    Click on a stock in the treemap or table to view its AI
-                    analysis
+                  <div className="flex items-center justify-between p-4 bg-zinc-50 dark:bg-zinc-700/30 rounded-lg">
+                    <div className="flex items-center gap-3">
+                      <div
+                        className="w-4 h-4 rounded-full flex-shrink-0"
+                        style={{ backgroundColor: SECTOR_COLORS[activeSection] || '#6b7280' }}
+                      ></div>
+                      <span className="text-zinc-700 dark:text-zinc-300 font-medium">
+                        {activeSection}
+                      </span>
+                    </div>
+                    <span
+                      className="px-3 py-1.5 rounded text-sm font-medium"
+                      style={{
+                        backgroundColor: getRiskColor(getCurrentSectorExposure(activeSection)),
+                        color: Math.abs(getCurrentSectorExposure(activeSection)) > 0.5 ? '#fff' : '#000'
+                      }}
+                    >
+                      {getCurrentSectorExposure(activeSection).toFixed(3)}
+                    </span>
                   </div>
-                )}
+                </div>
               </div>
 
               {/* Risk Table */}

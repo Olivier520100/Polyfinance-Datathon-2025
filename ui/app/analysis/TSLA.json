@@ -1,0 +1,15 @@
+{
+  "Ticker": "TSLA",
+  "Summary": "Tesla, Inc. analyzed 2 bills with 7 direct impacts. Key impacts involve $0 subsidies. Direct risk: -1.0. No indirect effects. Overall risk: low.",
+  "SummaryKeypoints": [
+    "H.R. 1 - One Big Beautiful Bill Act imposes subsidy. affecting operations in United States. with immediate implementation The legislation states: \"Termination of clean vehicle credit.\"",
+    "H.R. 1 - One Big Beautiful Bill Act imposes subsidy. affecting operations in United States. with immediate implementation The legislation states: \"Termination of residential clean energy credit.\"",
+    "H.R. 1 - One Big Beautiful Bill Act imposes subsidy. affecting operations in United States. with immediate implementation The legislation states: \"Termination of energy efficient home improvement credit.\"",
+    "H.R. 1 - One Big Beautiful Bill Act imposes subsidy. affecting operations in United States. with immediate implementation The legislation states: \"Termination and restrictions on clean electricity investment credit.\"",
+    "H.R. 1 - One Big Beautiful Bill Act imposes subsidy. affecting operations in United States. with short-term implementation The legislation states: \"Phase-out and restrictions on advanced manufacturing production credit.\""
+  ],
+  "DirectRiskFactor": -1.0,
+  "IndirectRiskFactor": 0,
+  "TimeFactor": 1.0,
+  "OverallRiskScore": -0.758
+}

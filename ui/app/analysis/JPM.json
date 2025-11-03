@@ -1,13 +1,13 @@
 {
-  "Ticker": "BAC",
-  "Summary": "Bank of America (BAC) faces direct and indirect risks from 2 bills. Key impacts: 1% tax increase, no regulatory change. Overall risk assessment: high due to financial and compliance exposure.",
+  "Ticker": "JPM",
+  "Summary": "JPMorgan Chase analyzed 1 bill with 1 direct and 2 indirect impacts. Regulatory impact: 0%. Direct risk: -0.95; indirect risk: -1.0. Overall risk: low.",
   "SummaryKeypoints": [
-    "H.R. 1 - One Big Beautiful Bill Act imposes 1% tax. affecting operations in United States. with short-term implementation The legislation states: \"There is hereby imposed on any remittance transfer a tax equal to 1 percent of the amount of such transfer.\"",
     "REGULATION (EU) 2024/1689 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL imposes regulation. affecting operations in European Union. with short-term implementation The legislation states: \"AI systems used to evaluate the credit score or creditworthiness of natural persons should be classified as high-risk AI systems, since they determine those persons\u2019 access to financial resources or essential services such as housing, electricity, and telecommunication services.\"",
+    "REGULATION (EU) 2024/1689 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL affects supplier providers of general-purpose AI models (global) through fine The legislation specifies: \"The Commission may impose on providers of general-purpose AI models fines not exceeding 3 % of their annual total worldwide turnover in the preceding financial year or EUR 15 000 000, whichever is higher.\"",
     "REGULATION (EU) 2024/1689 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL affects supplier providers of general-purpose AI models (global) through fine The legislation specifies: \"The Commission may impose on providers of general-purpose AI models fines not exceeding 3 % of their annual total worldwide turnover in the preceding financial year or EUR 15 000 000, whichever is higher.\""
   ],
-  "DirectRiskFactor": -1.0,
-  "IndirectRiskFactor": -0.95,
+  "DirectRiskFactor": -0.95,
+  "IndirectRiskFactor": -1.0,
   "TimeFactor": 1.0,
   "OverallRiskScore": -1.0
 }
