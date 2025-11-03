@@ -1,0 +1,13 @@
+{
+  "Ticker": "EIX",
+  "Summary": "Edison International (EIX) analyzed 1 bill, facing 1 direct and 21 indirect impacts. Direct risk: -1.0; indirect risk: -0.478. No subsidy benefits. Overall risk assessment: high.",
+  "SummaryKeypoints": [
+    "H.R. 1 - One Big Beautiful Bill Act imposes subsidy. affecting operations in United States. with short-term implementation The legislation states: \"Termination and restrictions on clean electricity investment credit.\"",
+    "H.R. 1 - One Big Beautiful Bill Act affects supplier Capistrano Wind Holdings, Inc. (United States) through subsidy The legislation specifies: \"Termination and restrictions on clean electricity investment credit.\"",
+    "H.R. 1 - One Big Beautiful Bill Act affects supplier Capistrano Wind, LLC (United States) through subsidy The legislation specifies: \"Termination and restrictions on clean electricity investment credit.\"",
+    "H.R. 1 - One Big Beautiful Bill Act affects supplier Capistrano Wind II, LLC (United States) through subsidy The legislation specifies: \"Termination and restrictions on clean electricity investment credit.\""
+  ],
+  "DirectRiskFactor": -1.0,
+  "IndirectRiskFactor": -0.478,
+  "TimeFactor": 0.9
+}

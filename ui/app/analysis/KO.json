@@ -1,0 +1,10 @@
+{
+  "Ticker": "KO",
+  "Summary": "Coca-Cola Company (The) (KO) analyzed 6 bills; no direct or indirect impacts identified. Overall risk assessment: low. No significant legislative threats or exposures detected.",
+  "SummaryKeypoints": [
+    "No significant law impacts identified"
+  ],
+  "DirectRiskFactor": 0,
+  "IndirectRiskFactor": 0,
+  "TimeFactor": 0.75
+}

@@ -1,0 +1,11 @@
+{
+  "Ticker": "BAC",
+  "Summary": "Bank of America (BAC) faced 1 bill with 2 indirect impacts, no direct risks. Overall risk assessment: low, as indirect exposure suggests minimal operational or financial impact.",
+  "SummaryKeypoints": [
+    "REGULATION (EU) 2024/1689 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL affects supplier providers of general-purpose AI models (not specified) through fine The legislation specifies: \"The Commission may impose on providers of general-purpose AI models fines not exceeding 3 % of their annual total worldwide turnover in the preceding financial year or EUR 15 000 000, whichever is higher.\"",
+    "REGULATION (EU) 2024/1689 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL affects supplier providers of general-purpose AI models (not specified) through fine The legislation specifies: \"The Commission may impose on providers of general-purpose AI models fines not exceeding 3 % of their annual total worldwide turnover in the preceding financial year or EUR 15 000 000, whichever is higher.\""
+  ],
+  "DirectRiskFactor": 0,
+  "IndirectRiskFactor": -1.0,
+  "TimeFactor": 1.0
+}

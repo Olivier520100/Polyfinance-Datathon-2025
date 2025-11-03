@@ -1,0 +1,10 @@
+{
+  "Ticker": "CMCSA",
+  "Summary": "Comcast (CMCSA) analyzed 6 bills; no direct or indirect impacts identified. Legislative landscape poses minimal risk with no significant regulatory threats detected.",
+  "SummaryKeypoints": [
+    "No significant law impacts identified"
+  ],
+  "DirectRiskFactor": 0,
+  "IndirectRiskFactor": 0,
+  "TimeFactor": 0.75
+}

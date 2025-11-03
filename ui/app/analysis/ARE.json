@@ -1,0 +1,10 @@
+{
+  "Ticker": "ARE",
+  "Summary": "Alexandria Real Estate Equities (ARE) analyzed 6 bills; no direct or indirect impacts identified. Overall risk assessment: negligible. Regulatory exposure minimal across all legislation reviewed.",
+  "SummaryKeypoints": [
+    "No significant law impacts identified"
+  ],
+  "DirectRiskFactor": 0,
+  "IndirectRiskFactor": 0,
+  "TimeFactor": 0.75
+}

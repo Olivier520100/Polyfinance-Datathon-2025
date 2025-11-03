@@ -1,0 +1,12 @@
+{
+  "Ticker": "EVRG",
+  "Summary": "Evergy (EVRG) analyzed 1 bill with 1 direct and 2 indirect impacts. Direct risk: -1.0; indirect risk: 0.03. No subsidy value. Overall risk: low.",
+  "SummaryKeypoints": [
+    "H.R. 1 - One Big Beautiful Bill Act imposes subsidy. affecting operations in United States. with short-term implementation The legislation states: \"Termination and restrictions on clean electricity investment credit.\"",
+    "H.R. 1 - One Big Beautiful Bill Act affects supplier TerraPower (United States) through subsidy The legislation specifies: \"Modifications of zero-emission nuclear power production credit.\"",
+    "H.R. 1 - One Big Beautiful Bill Act affects supplier TerraPower (United States) through subsidy The legislation specifies: \"$125,000,000 for the acceleration of development of small, portable modular nuclear reactors for military use;\""
+  ],
+  "DirectRiskFactor": -1.0,
+  "IndirectRiskFactor": 0.03,
+  "TimeFactor": 0.9
+}

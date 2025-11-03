@@ -1,0 +1,11 @@
+{
+  "Ticker": "XYZ",
+  "Summary": "Block, Inc. (XYZ) analyzed 2 bills with 2 direct impacts: a 1% tax increase and a \u20ac15M fine. No indirect impacts. Overall risk assessment: high direct financial exposure.",
+  "SummaryKeypoints": [
+    "H.R. 1 - One Big Beautiful Bill Act imposes 1% tax. affecting operations in United States. with short-term implementation The legislation states: \"There is hereby imposed on any remittance transfer a tax equal to 1 percent of the amount of such transfer.\"",
+    "REGULATION (EU) 2024/1689 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL establishes \u20ac15,000,000 fine. affecting operations in European Union. with short-term implementation The legislation states: \"The Commission may impose on providers of general-purpose AI models fines not exceeding 3 % of their annual total worldwide turnover in the preceding financial year or EUR 15 000 000, whichever is higher.\""
+  ],
+  "DirectRiskFactor": -1.0,
+  "IndirectRiskFactor": 0,
+  "TimeFactor": 0.9
+}

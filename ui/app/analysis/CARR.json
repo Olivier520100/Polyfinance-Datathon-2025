@@ -1,0 +1,10 @@
+{
+  "Ticker": "CARR",
+  "Summary": "Carrier Global (CARR) analyzed 1 bill with 1 direct impact, receiving $8,000 in subsidies. Direct risk: 1.0. No indirect impacts. Overall risk: low.",
+  "SummaryKeypoints": [
+    "H.R. 5376 - Inflation Reduction Act of 2022 provides $8,000 in subsidy. affecting operations in United States. with short-term implementation The legislation states: \"not more than $8,000 for a heat pump for space heating or cooling\""
+  ],
+  "DirectRiskFactor": 1.0,
+  "IndirectRiskFactor": 0,
+  "TimeFactor": 0.9
+}

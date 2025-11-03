@@ -1,0 +1,10 @@
+{
+  "Ticker": "GRMN",
+  "Summary": "Garmin (GRMN) analyzed 1 bill, facing 1 direct impact with a \u20ac15M fine risk; no indirect impacts. Overall risk assessment: low to moderate due to limited exposure.",
+  "SummaryKeypoints": [
+    "REGULATION (EU) 2024/1689 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL establishes \u20ac15,000,000 fine. affecting operations in European Union. with short-term implementation The legislation states: \"The Commission may impose on providers of general-purpose AI models fines not exceeding 3 % of their annual total worldwide turnover in the preceding financial year or EUR 15 000 000, whichever is higher.\""
+  ],
+  "DirectRiskFactor": -1.0,
+  "IndirectRiskFactor": 0,
+  "TimeFactor": 0.9
+}

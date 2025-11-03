@@ -1,0 +1,14 @@
+{
+  "Ticker": "CMS",
+  "Summary": "CMS Energy analyzed 2 bills with 9 direct and 5 indirect impacts. Key effects include minor subsidy changes. Direct risk is high; indirect risk is neutral. Overall risk: moderate.",
+  "SummaryKeypoints": [
+    "H.R. 1 - One Big Beautiful Bill Act imposes regulation. affecting operations in United States. with long-term implementation The legislation states: \"This section shall not apply to any wind energy component produced and sold after December 31, 2027.\"",
+    "H.R. 5376 - Inflation Reduction Act of 2022 provides $0.07 in subsidy. affecting operations in United States. with long-term implementation The legislation states: \"in the case of a residential inverter, 6.5 cents\"",
+    "H.R. 5376 - Inflation Reduction Act of 2022 provides $0.11 in subsidy. affecting operations in United States. with long-term implementation The legislation states: \"in the case of a microinverter or a distributed wind inverter, 11 cents\"",
+    "H.R. 5376 - Inflation Reduction Act of 2022 provides $0.02 in subsidy. affecting operations in United States. with long-term implementation The legislation states: \"in the case of a blade, 2 cents\"",
+    "H.R. 5376 - Inflation Reduction Act of 2022 provides $0.05 in subsidy. affecting operations in United States. with long-term implementation The legislation states: \"in the case of a nacelle, 5 cents\""
+  ],
+  "DirectRiskFactor": 0.761,
+  "IndirectRiskFactor": -1.0,
+  "TimeFactor": 0.75
+}

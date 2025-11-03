@@ -1,0 +1,10 @@
+{
+  "Ticker": "A",
+  "Summary": "Agilent Technologies (A) analyzed 6 bills. No direct or indirect impacts identified. Overall risk assessment: low. Company faces no legislative threats or regulatory exposure in current analysis.",
+  "SummaryKeypoints": [
+    "No significant law impacts identified"
+  ],
+  "DirectRiskFactor": 0,
+  "IndirectRiskFactor": 0,
+  "TimeFactor": 0.75
+}

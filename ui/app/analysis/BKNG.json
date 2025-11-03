@@ -1,0 +1,14 @@
+{
+  "Ticker": "BKNG",
+  "Summary": "Booking Holdings (BKNG) analyzed 1 bill with 5 direct regulatory impacts. Direct risk: -1.0. Top impact: 4% regulation. No indirect effects. Overall risk: low.",
+  "SummaryKeypoints": [
+    "Directive (UE) 2019/2161 du Parlement europ\u00e9en et du Conseil imposes regulation. affecting operations in European Union. with short-term implementation The legislation states: \"Les professionnels qui permettent aux consommateurs de rechercher des biens et des services, tels que des voyages, des h\u00e9bergements et des activit\u00e9s de loisirs, propos\u00e9s par diff\u00e9rents professionnels ou par des consommateurs, devraient informer les consommateurs des principaux param\u00e8tres par d\u00e9faut qui d\u00e9terminent le classement des offres pr\u00e9sent\u00e9es au consommateur dans le r\u00e9sultat de la recherche et de leur importance relative par rapport \u00e0 d\u2019autres param\u00e8tres.\"",
+    "Directive (UE) 2019/2161 du Parlement europ\u00e9en et du Conseil imposes regulation. affecting operations in European Union. with short-term implementation The legislation states: \"Lorsqu\u2019un professionnel paie directement ou indirectement le fournisseur de la fonction de recherche en ligne pour b\u00e9n\u00e9ficier d\u2019un classement plus \u00e9lev\u00e9 d\u2019un produit dans les r\u00e9sultats de recherche, ce fournisseur devrait en informer les consommateurs sous une forme concise, facile d\u2019acc\u00e8s et intelligible.\"",
+    "Directive (UE) 2019/2161 du Parlement europ\u00e9en et du Conseil establishes 4% regulation. affecting operations in European Union. with short-term implementation The legislation states: \"le montant maximal de ces amendes correspondant \u00e0 au moins 4 % du chiffre d\u2019affaires annuel du professionnel dans l\u2019\u00c9tat membre ou les \u00c9tats membres concern\u00e9s.\"",
+    "Directive (UE) 2019/2161 du Parlement europ\u00e9en et du Conseil establishes \u20ac2,000,000 regulation. affecting operations in European Union. with short-term implementation The legislation states: \"les \u00c9tats membres pr\u00e9voient la possibilit\u00e9 d\u2019infliger des amendes, dont le montant maximal est d\u2019au moins 2 millions d\u2019euros.\"",
+    "Directive (UE) 2019/2161 du Parlement europ\u00e9en et du Conseil imposes regulation. affecting operations in European Union. with short-term implementation The legislation states: \"Fournir des r\u00e9sultats de recherche en r\u00e9ponse \u00e0 une requ\u00eate de recherche en ligne d\u2019un consommateur sans l\u2019informer clairement de toute publicit\u00e9 payante ou tout paiement effectu\u00e9 sp\u00e9cifiquement pour obtenir un meilleur classement des produits dans les r\u00e9sultats de recherche.\""
+  ],
+  "DirectRiskFactor": -1.0,
+  "IndirectRiskFactor": 0,
+  "TimeFactor": 0.9
+}

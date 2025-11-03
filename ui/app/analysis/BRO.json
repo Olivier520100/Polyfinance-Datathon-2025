@@ -1,0 +1,10 @@
+{
+  "Ticker": "BRO",
+  "Summary": "Brown & Brown (BRO) analyzed 1 bill with 1 direct regulatory impact. No indirect effects. Direct risk: -1.0. Overall risk assessment: low.",
+  "SummaryKeypoints": [
+    "REGULATION (EU) 2024/1689 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL imposes regulation. affecting operations in European Union. with short-term implementation The legislation states: \"deployers of certain high-risk AI systems listed in an annex to this Regulation, such as banking or insurance entities, should carry out a fundamental rights impact assessment prior to putting it into use.\""
+  ],
+  "DirectRiskFactor": -1.0,
+  "IndirectRiskFactor": 0,
+  "TimeFactor": 0.9
+}

@@ -1,0 +1,10 @@
+{
+  "Ticker": "DDOG",
+  "Summary": "Datadog (DDOG) analyzed 6 bills; no direct or indirect impacts identified. Legislative impact analysis shows zero risk exposure, indicating minimal regulatory threat across all reviewed legislation.",
+  "SummaryKeypoints": [
+    "No significant law impacts identified"
+  ],
+  "DirectRiskFactor": 0,
+  "IndirectRiskFactor": 0,
+  "TimeFactor": 0.75
+}

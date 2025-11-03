@@ -1,0 +1,10 @@
+{
+  "Ticker": "EXE",
+  "Summary": "Expand Energy (EXE) faces direct risk from 1 analyzed bill, with 1 direct regulatory impact affecting 0% of operations; no indirect risks, indicating minimal legislative exposure.",
+  "SummaryKeypoints": [
+    "H.R. 1 - One Big Beautiful Bill Act imposes regulation. affecting operations in United States. with long-term implementation The legislation states: \"This section shall not apply to any metallurgical coal produced after December 31, 2029.\""
+  ],
+  "DirectRiskFactor": 1.0,
+  "IndirectRiskFactor": 0,
+  "TimeFactor": 0.75
+}

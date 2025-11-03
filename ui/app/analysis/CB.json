@@ -1,0 +1,10 @@
+{
+  "Ticker": "CB",
+  "Summary": "Chubb Limited (CB) faces low legislative risk; 1 bill analyzed, 1 direct impact. Regulation may affect 0% of revenue. Indirect risk absent. Overall risk: minimal.",
+  "SummaryKeypoints": [
+    "REGULATION (EU) 2024/1689 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL imposes regulation. affecting operations in European Union. with short-term implementation The legislation states: \"AI systems intended to be used for risk assessment and pricing in relation to natural persons in the case of life and health insurance\""
+  ],
+  "DirectRiskFactor": -1.0,
+  "IndirectRiskFactor": 0,
+  "TimeFactor": 0.9
+}

@@ -1,0 +1,11 @@
+{
+  "Ticker": "ADI",
+  "Summary": "Analog Devices (ADI) faced 1 bill with 2 indirect impacts, no direct risk. Overall risk assessment: low, as indirect effects may influence operations without immediate regulatory exposure.",
+  "SummaryKeypoints": [
+    "REGULATION (EU) 2024/1689 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL affects supplier providers of general-purpose AI models through fine The legislation specifies: \"The Commission may impose on providers of general-purpose AI models fines not exceeding 3 % of their annual total worldwide turnover in the preceding financial year or EUR 15 000 000, whichever is higher.\"",
+    "REGULATION (EU) 2024/1689 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL affects supplier providers of general-purpose AI models through fine The legislation specifies: \"The Commission may impose on providers of general-purpose AI models fines not exceeding 3 % of their annual total worldwide turnover in the preceding financial year or EUR 15 000 000, whichever is higher.\""
+  ],
+  "DirectRiskFactor": 0,
+  "IndirectRiskFactor": -1.0,
+  "TimeFactor": 1.0
+}

@@ -1,0 +1,11 @@
+{
+  "Ticker": "CRWD",
+  "Summary": "CrowdStrike (CRWD) faces direct risk from 2 analyzed bills, with impacts including a \u20ac15M fine and $90M subsidy; overall direct risk: -0.097; no indirect impacts.",
+  "SummaryKeypoints": [
+    "H.R. 1 - One Big Beautiful Bill Act provides $90,000,000 in subsidy. affecting operations in United States. with short-term implementation The legislation states: \"$90,000,000 for APEX Accelerators, the Mentor-Protege Program, and cybersecurity support to small non-traditional contractors;\"",
+    "REGULATION (EU) 2024/1689 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL establishes \u20ac15,000,000 fine. affecting operations in European Union. with short-term implementation The legislation states: \"The Commission may impose on providers of general-purpose AI models fines not exceeding 3 % of their annual total worldwide turnover in the preceding financial year or EUR 15 000 000, whichever is higher.\""
+  ],
+  "DirectRiskFactor": -0.097,
+  "IndirectRiskFactor": 0,
+  "TimeFactor": 0.9
+}

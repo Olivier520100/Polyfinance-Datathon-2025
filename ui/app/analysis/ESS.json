@@ -1,0 +1,14 @@
+{
+  "Ticker": "ESS",
+  "Summary": "Essex Property Trust (ESS) analyzed 1 bill, facing 3 direct and 2 indirect impacts. Key impacts include $400,000, $200,000 subsidies, and 50% cost reduction. Overall risk: low.",
+  "SummaryKeypoints": [
+    "H.R. 5376 - Inflation Reduction Act of 2022 provides $400,000 in subsidy. affecting operations in United States. with short-term implementation The legislation states: \"in the case of a retrofit that achieves modeled energy system savings of not less than 35 percent, $4,000 per dwelling unit, with a maximum of $400,000 per multifamily building\"",
+    "H.R. 5376 - Inflation Reduction Act of 2022 provides $200,000 in subsidy. affecting operations in United States. with short-term implementation The legislation states: \"in the case of a retrofit that achieves modeled energy system savings of not less than 20 percent but less than 35 percent, $2,000 per dwelling unit, with a maximum of $200,000 per multifamily building\"",
+    "H.R. 5376 - Inflation Reduction Act of 2022 provides 50% in subsidy. affecting operations in United States. with short-term implementation The legislation states: \"50 percent of the project cost\"",
+    "H.R. 5376 - Inflation Reduction Act of 2022 affects supplier Environmental Protection Agency through subsidy The legislation specifies: \"In addition to amounts otherwise available, there is appropriated to the Administrator of the Environmental Protection Agency for fiscal year 2022, out of any money in the Treasury not otherwise appropriated, $100,000,000, to remain available until September 30, 2026, for necessary administrative costs of the Administrator of the Environmental Protection Agency to carry out this section and to develop and carry out a program, in consultation with the Administrator of the Federal Highway Administration for construction materials used in transportation projects and the Administrator of General Services for construction materials used for Federal buildings, to identify and label construction materials and products that have substantially lower levels of embodied greenhouse gas emissions...\"",
+    "H.R. 5376 - Inflation Reduction Act of 2022 affects supplier Environmental Protection Agency through subsidy The legislation specifies: \"In addition to amounts otherwise available, there is appropriated to the Environmental Protection Agency for fiscal year 2022, out of any money in the Treasury not otherwise appropriated, $40,000,000, to remain available until September 30, 2026, to provide for the development of efficient, accurate, and timely reviews for permitting and approval processes...\""
+  ],
+  "DirectRiskFactor": 1.0,
+  "IndirectRiskFactor": 1.0,
+  "TimeFactor": 0.9
+}

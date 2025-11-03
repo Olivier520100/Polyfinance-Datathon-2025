@@ -1,0 +1,10 @@
+{
+  "Ticker": "STZ",
+  "Summary": "Constellation Brands (STZ) analyzed 1 bill with 1 direct tax impact of 0.5%, posing low direct risk; no indirect impacts, indicating minimal legislative risk exposure.",
+  "SummaryKeypoints": [
+    "H.R. 1 - One Big Beautiful Bill Act imposes 0.5% tax. affecting operations in United States. with long-term implementation The legislation states: \"Permanent increase in limitation on cover over of tax on distilled spirits.\""
+  ],
+  "DirectRiskFactor": 1.0,
+  "IndirectRiskFactor": 0,
+  "TimeFactor": 0.75
+}

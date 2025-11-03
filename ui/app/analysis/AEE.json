@@ -1,0 +1,10 @@
+{
+  "Ticker": "AEE",
+  "Summary": "Ameren (AEE) faced 6 bills; no direct or indirect impacts identified. Legislative analysis shows zero risk exposure, indicating minimal regulatory threat to operations or financial performance.",
+  "SummaryKeypoints": [
+    "No significant law impacts identified"
+  ],
+  "DirectRiskFactor": 0,
+  "IndirectRiskFactor": 0,
+  "TimeFactor": 0.75
+}

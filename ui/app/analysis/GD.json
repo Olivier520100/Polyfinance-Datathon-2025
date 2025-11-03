@@ -1,0 +1,14 @@
+{
+  "Ticker": "GD",
+  "Summary": "General Dynamics: 2 bills analyzed; 48 direct/indirect impacts. Key subsidies: $4.6B, $5.4B, $750M. High direct risk (0.953), full indirect exposure. Overall risk: critical.",
+  "SummaryKeypoints": [
+    "H.R. 1 - One Big Beautiful Bill Act provides $4,600,000,000 in subsidy. affecting operations in United States. with short-term implementation The legislation states: \"$4,600,000,000 for a second Virginia-class submarine in fiscal year 2026;\"",
+    "H.R. 1 - One Big Beautiful Bill Act provides $5,400,000,000 in subsidy. affecting operations in United States. with short-term implementation The legislation states: \"$5,400,000,000 for two additional Guided Missile Destroyer (DDG) ships;\"",
+    "H.R. 1 - One Big Beautiful Bill Act provides $750,000,000 in subsidy. affecting operations in United States. with long-term implementation The legislation states: \"$750,000,000 for additional supplier development across the naval shipbuilding industrial base;\"",
+    "H.R. 1 - One Big Beautiful Bill Act provides $250,000,000 in subsidy. affecting operations in United States. with long-term implementation The legislation states: \"$250,000,000 for additional advanced manufacturing processes across the naval shipbuilding industrial base;\"",
+    "H.R. 1 - One Big Beautiful Bill Act provides $500,000,000 in subsidy. affecting operations in United States. with long-term implementation The legislation states: \"$500,000,000 for additional dry-dock capability;\""
+  ],
+  "DirectRiskFactor": 0.953,
+  "IndirectRiskFactor": 1.0,
+  "TimeFactor": 0.9
+}

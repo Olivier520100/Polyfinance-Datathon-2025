@@ -1,0 +1,12 @@
+{
+  "Ticker": "GE",
+  "Summary": "GE Aerospace analyzed 2 bills, facing 3 direct impacts: $63M subsidy, \u20ac15M fine, and neutral regulation. Overall direct risk: -0.391; no indirect risk.",
+  "SummaryKeypoints": [
+    "H.R. 1 - One Big Beautiful Bill Act provides $63,000,000 in subsidy. affecting operations in United States. with short-term implementation The legislation states: \"$63,000,000 for the development of advanced rotary-wing engines;\"",
+    "REGULATION (EU) 2024/1689 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL imposes regulation. affecting operations in European Union. with short-term implementation The legislation states: \"As regards AI systems that are safety components of products, or which are themselves products, falling within the scope of certain Union harmonisation legislation listed in an annex to this Regulation, it is appropriate to classify them as high-risk under this Regulation if the product concerned undergoes the conformity assessment procedure with a third-party conformity assessment body pursuant to that relevant Union harmonisation legislation. In particular, such products are machinery, toys, lifts, equipment and protective systems intended for use in potentially explosive atmospheres, radio equipment, pressure equipment, recreational craft equipment, cableway installations, appliances burning gaseous fuels, medical devices, in vitro diagnostic medical devices, automotive and aviation.\"",
+    "REGULATION (EU) 2024/1689 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL establishes \u20ac15,000,000 fine. affecting operations in European Union. with short-term implementation The legislation states: \"The Commission may impose on providers of general-purpose AI models fines not exceeding 3 % of their annual total worldwide turnover in the preceding financial year or EUR 15 000 000, whichever is higher.\""
+  ],
+  "DirectRiskFactor": -0.391,
+  "IndirectRiskFactor": 0,
+  "TimeFactor": 0.9
+}

@@ -1,0 +1,11 @@
+{
+  "Ticker": "FIS",
+  "Summary": "Fidelity National Information Services (FIS) analyzed 2 bills, facing 1 direct and 1 indirect impact. Tax exposure increases by 1%. Overall risk assessment: moderate.",
+  "SummaryKeypoints": [
+    "H.R. 1 - One Big Beautiful Bill Act imposes 1% tax. affecting operations in United States. with short-term implementation The legislation states: \"There is hereby imposed on any remittance transfer a tax equal to 1 percent of the amount of such transfer.\"",
+    "REGULATION (EU) 2024/1689 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL affects supplier providers of general-purpose AI models (not specified) through fine The legislation specifies: \"The Commission may impose on providers of general-purpose AI models fines not exceeding 3 % of their annual total worldwide turnover in the preceding financial year or EUR 15 000 000, whichever is higher.\""
+  ],
+  "DirectRiskFactor": -1.0,
+  "IndirectRiskFactor": -1.0,
+  "TimeFactor": 1.0
+}

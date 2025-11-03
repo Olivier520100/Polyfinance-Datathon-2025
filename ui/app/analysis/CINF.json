@@ -1,0 +1,10 @@
+{
+  "Ticker": "CINF",
+  "Summary": "Cincinnati Financial (CINF) analyzed 6 bills; no direct or indirect impacts identified. Overall risk assessment: minimal. Company faces no legislative threats in current review.",
+  "SummaryKeypoints": [
+    "No significant law impacts identified"
+  ],
+  "DirectRiskFactor": 0,
+  "IndirectRiskFactor": 0,
+  "TimeFactor": 0.75
+}

@@ -1,0 +1,10 @@
+{
+  "Ticker": "FAST",
+  "Summary": "Fastenal (FAST) analyzed 6 bills; no direct or indirect impacts identified. Legislative review indicates zero risk exposure, with no significant regulatory or operational implications from current proposed legislation.",
+  "SummaryKeypoints": [
+    "No significant law impacts identified"
+  ],
+  "DirectRiskFactor": 0,
+  "IndirectRiskFactor": 0,
+  "TimeFactor": 0.75
+}

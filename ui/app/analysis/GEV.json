@@ -1,0 +1,14 @@
+{
+  "Ticker": "GEV",
+  "Summary": "GE Vernova analyzed 2 bills with 9 direct impacts, all zero-value subsidies. Direct risk: -0.562. No indirect impacts. Overall risk assessment indicates moderate negative exposure.",
+  "SummaryKeypoints": [
+    "H.R. 1 - One Big Beautiful Bill Act imposes subsidy. affecting operations in United States. with short-term implementation The legislation states: \"Termination and restrictions on clean electricity production credit.\"",
+    "H.R. 1 - One Big Beautiful Bill Act imposes subsidy. affecting operations in United States. with short-term implementation The legislation states: \"Termination and restrictions on clean electricity investment credit.\"",
+    "H.R. 1 - One Big Beautiful Bill Act imposes subsidy. affecting operations in United States. with short-term implementation The legislation states: \"Phase-out and restrictions on advanced manufacturing production credit.\"",
+    "H.R. 1 - One Big Beautiful Bill Act imposes subsidy. affecting operations in United States. with short-term implementation The legislation states: \"Termination of clean hydrogen production credit.\"",
+    "H.R. 1 - One Big Beautiful Bill Act imposes subsidy. affecting operations in United States. with short-term implementation The legislation states: \"Restriction on the extension of advanced energy project credit program.\""
+  ],
+  "DirectRiskFactor": -0.562,
+  "IndirectRiskFactor": 0,
+  "TimeFactor": 0.9
+}

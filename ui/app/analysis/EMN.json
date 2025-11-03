@@ -1,0 +1,10 @@
+{
+  "Ticker": "EMN",
+  "Summary": "Eastman Chemical Company (EMN) analyzed 1 bill with 1 direct impact: a $0.50/gallon subsidy. Indirect impacts: 0. Overall risk assessment: low. Direct risk exposure: 1.0.",
+  "SummaryKeypoints": [
+    "H.R. 5376 - Inflation Reduction Act of 2022 provides 0.5 dollars per gallon in subsidy. affecting operations in United States. with short-term implementation The legislation states: \"In no event shall the applicable supplementary amount determined under this subsection exceed $0.50.\""
+  ],
+  "DirectRiskFactor": 1.0,
+  "IndirectRiskFactor": 0,
+  "TimeFactor": 0.9
+}

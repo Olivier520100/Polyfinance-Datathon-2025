@@ -1,0 +1,14 @@
+{
+  "Ticker": "AEP",
+  "Summary": "American Electric Power (AEP) faces direct legislative risk (-0.515) from 2 bills with 5 direct impacts. No indirect risks. Multiple zero-value subsidy proposals analyzed. Overall risk: low to moderate.",
+  "SummaryKeypoints": [
+    "H.R. 1 - One Big Beautiful Bill Act imposes subsidy. affecting operations in United States. with short-term implementation The legislation states: \"Termination and restrictions on clean electricity production credit.\"",
+    "H.R. 1 - One Big Beautiful Bill Act imposes subsidy. affecting operations in United States. with short-term implementation The legislation states: \"Termination and restrictions on clean electricity investment credit.\"",
+    "H.R. 1 - One Big Beautiful Bill Act imposes subsidy. affecting operations in United States. with short-term implementation The legislation states: \"Phase-out and restrictions on advanced manufacturing production credit.\"",
+    "H.R. 1 - One Big Beautiful Bill Act imposes subsidy. affecting operations in United States. with short-term implementation The legislation states: \"Restriction on the extension of advanced energy project credit program.\"",
+    "H.R. 5376 - Inflation Reduction Act of 2022 provides $5,812,000,000 in subsidy. affecting operations in United States. with short-term implementation The legislation states: \"In addition to amounts otherwise available, there is appropriated to the Secretary, acting through the Office of Clean Energy Demonstrations, for fiscal year 2022, out of any money in the Treasury not otherwise appropriated, $5,812,000,000, to remain available through September 30, 2026, to carry out this section.\""
+  ],
+  "DirectRiskFactor": -0.515,
+  "IndirectRiskFactor": 0,
+  "TimeFactor": 0.9
+}

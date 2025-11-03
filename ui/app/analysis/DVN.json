@@ -1,0 +1,10 @@
+{
+  "Ticker": "DVN",
+  "Summary": "Devon Energy (DVN) analyzed 1 bill with 1 direct tax impact. No financial effect or indirect impacts. Overall risk assessment: low. Direct risk: -1.0.",
+  "SummaryKeypoints": [
+    "H.R. 5376 - Inflation Reduction Act of 2022 imposes tax. affecting operations in United States. with short-term implementation The legislation states: \"The Administrator shall impose and collect a charge on methane emissions that exceed an applicable waste emissions threshold under subsection (f) from an owner or operator of an applicable facility that reports more than 25,000 metric tons of carbon dioxide equivalent of greenhouse gases emitted per year pursuant to subpart W of part 98 of title 40, Code of Federal Regulations, regardless of the reporting threshold under that subpart.\""
+  ],
+  "DirectRiskFactor": -1.0,
+  "IndirectRiskFactor": 0,
+  "TimeFactor": 0.9
+}

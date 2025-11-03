@@ -1,0 +1,12 @@
+{
+  "Ticker": "DHI",
+  "Summary": "D. R. Horton (DHI) faced 1 bill with 3 direct subsidy impacts totaling $0. No indirect effects. Overall risk assessment: low, due to minimal financial",
+  "SummaryKeypoints": [
+    "H.R. 1 - One Big Beautiful Bill Act imposes subsidy. affecting operations in United States. with short-term implementation The legislation states: \"Termination of energy efficient home improvement credit.\"",
+    "H.R. 1 - One Big Beautiful Bill Act imposes subsidy. affecting operations in United States. with short-term implementation The legislation states: \"Termination of new energy efficient home credit.\"",
+    "H.R. 1 - One Big Beautiful Bill Act imposes subsidy. affecting operations in United States. with short-term implementation The legislation states: \"Termination of residential clean energy credit.\""
+  ],
+  "DirectRiskFactor": -1.0,
+  "IndirectRiskFactor": 0,
+  "TimeFactor": 0.9
+}

@@ -1,0 +1,10 @@
+{
+  "Ticker": "EQIX",
+  "Summary": "Equinix (EQIX) analyzed 6 bills; no direct or indirect impacts identified. Legislative activity poses minimal risk, with zero direct and indirect impacts affecting operations or financial outlook.",
+  "SummaryKeypoints": [
+    "No significant law impacts identified"
+  ],
+  "DirectRiskFactor": 0,
+  "IndirectRiskFactor": 0,
+  "TimeFactor": 0.75
+}

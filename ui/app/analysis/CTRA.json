@@ -1,0 +1,14 @@
+{
+  "Ticker": "CTRA",
+  "Summary": "Coterra (CTRA) faces direct legislative risk (0.552) from 2 bills with 8 direct impacts. No indirect risks or subsidies identified. Overall risk assessment: moderate.",
+  "SummaryKeypoints": [
+    "H.R. 1 - One Big Beautiful Bill Act imposes subsidy. affecting operations in United States. with immediate implementation The legislation states: \"Termination of clean vehicle credit.\"",
+    "H.R. 1 - One Big Beautiful Bill Act imposes subsidy. affecting operations in United States. with short-term implementation The legislation states: \"Termination of energy efficient home improvement credit.\"",
+    "H.R. 1 - One Big Beautiful Bill Act imposes subsidy. affecting operations in United States. with short-term implementation The legislation states: \"Termination and restrictions on clean electricity production credit.\"",
+    "H.R. 1 - One Big Beautiful Bill Act imposes subsidy. affecting operations in United States. with short-term implementation The legislation states: \"Termination and restrictions on clean electricity investment credit.\"",
+    "H.R. 1 - One Big Beautiful Bill Act imposes subsidy. affecting operations in United States. with long-term implementation The legislation states: \"Phase-out and restrictions on advanced manufacturing production credit.\""
+  ],
+  "DirectRiskFactor": 0.552,
+  "IndirectRiskFactor": 0,
+  "TimeFactor": 1.0
+}

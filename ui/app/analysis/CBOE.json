@@ -1,0 +1,10 @@
+{
+  "Ticker": "CBOE",
+  "Summary": "Cboe Global Markets (CBOE) faces no direct or indirect legislative impacts from the 6 bills analyzed; overall risk assessment is low with zero identified impacts.",
+  "SummaryKeypoints": [
+    "No significant law impacts identified"
+  ],
+  "DirectRiskFactor": 0,
+  "IndirectRiskFactor": 0,
+  "TimeFactor": 0.75
+}

@@ -1,0 +1,10 @@
+{
+  "Ticker": "CI",
+  "Summary": "Cigna (CI) analyzed 6 bills; no direct or indirect impacts identified. Legislative impact analysis shows zero risks, indicating minimal exposure to current healthcare-related regulatory proposals.",
+  "SummaryKeypoints": [
+    "No significant law impacts identified"
+  ],
+  "DirectRiskFactor": 0,
+  "IndirectRiskFactor": 0,
+  "TimeFactor": 0.75
+}

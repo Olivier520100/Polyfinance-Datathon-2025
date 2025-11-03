@@ -1,0 +1,14 @@
+{
+  "Ticker": "EQR",
+  "Summary": "Equity Residential (EQR) faces direct risk from 1 bill with 5 direct impacts, including $608,000 in subsidies; no indirect risks; overall risk assessment: low.",
+  "SummaryKeypoints": [
+    "H.R. 5376 - Inflation Reduction Act of 2022 provides $400,000 in subsidy. affecting operations in United States. with short-term implementation The legislation states: \"in the case of a retrofit that achieves modeled energy system savings of not less than 35 percent, $4,000 per dwelling unit, with a maximum of $400,000 per multifamily building\"",
+    "H.R. 5376 - Inflation Reduction Act of 2022 provides $200,000 in subsidy. affecting operations in United States. with short-term implementation The legislation states: \"in the case of a retrofit that achieves modeled energy system savings of not less than 20 percent but less than 35 percent, $2,000 per dwelling unit, with a maximum of $200,000 per multifamily building\"",
+    "H.R. 5376 - Inflation Reduction Act of 2022 provides $8,000 in subsidy. affecting operations in United States. with short-term implementation The legislation states: \"in the case of a retrofit that achieves modeled energy system savings of not less than 35 percent, the lesser of\u2014 (I) $8,000 per single-family home or dwelling unit; and (II) 80 percent of the project cost\"",
+    "H.R. 5376 - Inflation Reduction Act of 2022 provides $4,000 in subsidy. affecting operations in United States. with short-term implementation The legislation states: \"in the case of a retrofit that achieves modeled energy system savings of not less than 20 percent but less than 35 percent, the lesser of\u2014 (I) $4,000 per single-family home or dwelling unit; and (II) 80 percent of the project cost\"",
+    "H.R. 5376 - Inflation Reduction Act of 2022 provides 80% in subsidy. affecting operations in United States. with short-term implementation The legislation states: \"80 percent of the project cost\""
+  ],
+  "DirectRiskFactor": 1.0,
+  "IndirectRiskFactor": 0,
+  "TimeFactor": 0.9
+}

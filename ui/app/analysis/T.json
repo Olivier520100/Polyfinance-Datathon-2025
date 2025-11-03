@@ -1,0 +1,11 @@
+{
+  "Ticker": "T",
+  "Summary": "AT&T (T) faces one bill with two direct impacts, receiving $800M in subsidies. Direct risk is 1.0; no indirect risks. High legislative benefit, low overall risk.",
+  "SummaryKeypoints": [
+    "H.R. 1 - One Big Beautiful Bill Act provides $500,000,000 in subsidy. affecting operations in United States. with short-term implementation The legislation states: \"$500,000,000 for the accelerated development and integration of advanced 5G/6G technologies for military use;\"",
+    "H.R. 1 - One Big Beautiful Bill Act provides $300,000,000 in subsidy. affecting operations in United States Indo-Pacific Command area of operations. with short-term implementation The legislation states: \"$300,000,000 for the procurement of mesh network communications capabilities for Special Operations Command Pacific;\""
+  ],
+  "DirectRiskFactor": 1.0,
+  "IndirectRiskFactor": 0,
+  "TimeFactor": 0.9
+}

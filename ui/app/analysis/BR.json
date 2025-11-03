@@ -1,0 +1,10 @@
+{
+  "Ticker": "BR",
+  "Summary": "Broadridge Financial Solutions (BR) analyzed 6 bills; no direct or indirect impacts identified. Legislative impact assessment shows zero risks, indicating minimal exposure to current proposed legislation.",
+  "SummaryKeypoints": [
+    "No significant law impacts identified"
+  ],
+  "DirectRiskFactor": 0,
+  "IndirectRiskFactor": 0,
+  "TimeFactor": 0.75
+}

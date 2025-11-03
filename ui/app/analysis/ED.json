@@ -1,0 +1,14 @@
+{
+  "Ticker": "ED",
+  "Summary": "Consolidated Edison (ED) analyzed 1 bill with 5 direct impacts, all zero-value subsidies. Direct risk: -1.0. No indirect risks. Overall risk assessment: low.",
+  "SummaryKeypoints": [
+    "H.R. 1 - One Big Beautiful Bill Act imposes subsidy. affecting operations in United States. with immediate implementation The legislation states: \"Termination of energy efficient commercial buildings deduction.\"",
+    "H.R. 1 - One Big Beautiful Bill Act imposes subsidy. affecting operations in United States. with immediate implementation The legislation states: \"Termination of residential clean energy credit.\"",
+    "H.R. 1 - One Big Beautiful Bill Act imposes subsidy. affecting operations in United States. with immediate implementation The legislation states: \"Termination and restrictions on clean electricity production credit.\"",
+    "H.R. 1 - One Big Beautiful Bill Act imposes subsidy. affecting operations in United States. with immediate implementation The legislation states: \"Termination and restrictions on clean electricity investment credit.\"",
+    "H.R. 1 - One Big Beautiful Bill Act imposes subsidy. affecting operations in United States. with short-term implementation The legislation states: \"Phase-out and restrictions on advanced manufacturing production credit.\""
+  ],
+  "DirectRiskFactor": -1.0,
+  "IndirectRiskFactor": 0,
+  "TimeFactor": 1.0
+}

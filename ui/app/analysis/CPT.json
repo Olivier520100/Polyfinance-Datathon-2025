@@ -1,0 +1,14 @@
+{
+  "Ticker": "CPT",
+  "Summary": "Camden Property Trust (CPT) analyzed 1 bill, facing 4 direct and 3 indirect impacts. Key impacts include $400,000, $200,000 subsidies, and 100% cost increases. Overall risk: high.",
+  "SummaryKeypoints": [
+    "H.R. 5376 - Inflation Reduction Act of 2022 provides $400,000 in subsidy. affecting operations in United States. with short-term implementation The legislation states: \"in the case of a retrofit that achieves modeled energy system savings of not less than 35 percent, $4,000 per dwelling unit, with a maximum of $400,000 per multifamily building\"",
+    "H.R. 5376 - Inflation Reduction Act of 2022 provides $200,000 in subsidy. affecting operations in United States. with short-term implementation The legislation states: \"in the case of a retrofit that achieves modeled energy system savings of not less than 20 percent but less than 35 percent, $2,000 per dwelling unit, with a maximum of $200,000 per multifamily building\"",
+    "H.R. 5376 - Inflation Reduction Act of 2022 provides 100% in subsidy. affecting operations in United States. with short-term implementation The legislation states: \"100 percent of the cost of the qualified electrification project for a multifamily building not less than 50 percent of the residents of which are households the annual income of which is less than 80 percent of the area median income;\"",
+    "H.R. 5376 - Inflation Reduction Act of 2022 provides 50% in subsidy. affecting operations in United States. with short-term implementation The legislation states: \"50 percent of the cost of the qualified electrification project for a multifamily building not less than 50 percent of the residents of which are households the annual income of which is not less than 80 percent and not greater than 150 percent of the area median income;\"",
+    "H.R. 5376 - Inflation Reduction Act of 2022 affects supplier Camden Builders, Inc. (United States) through subsidy The legislation specifies: \"to provide a contractor performing a home energy efficiency retrofit or an aggregator who has the right to claim a rebate $200 for each home located in a disadvantaged community that receives a home energy efficiency retrofit for which a rebate is provided under the program\""
+  ],
+  "DirectRiskFactor": 1.0,
+  "IndirectRiskFactor": 1.0,
+  "TimeFactor": 0.9
+}

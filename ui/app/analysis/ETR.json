@@ -1,0 +1,10 @@
+{
+  "Ticker": "ETR",
+  "Summary": "Entergy (ETR) faced 6 bills; no direct or indirect impacts identified. Zero direct/indirect risk assessed. Legislative analysis shows no material threats to operations or compliance requirements.",
+  "SummaryKeypoints": [
+    "No significant law impacts identified"
+  ],
+  "DirectRiskFactor": 0,
+  "IndirectRiskFactor": 0,
+  "TimeFactor": 0.75
+}

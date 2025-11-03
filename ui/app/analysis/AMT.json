@@ -1,0 +1,10 @@
+{
+  "Ticker": "AMT",
+  "Summary": "American Tower (AMT) analyzed 1 bill with 1 direct impact: a $500 million subsidy. Direct risk is 1.0; no indirect risks. High potential benefit, low legislative risk.",
+  "SummaryKeypoints": [
+    "H.R. 1 - One Big Beautiful Bill Act provides $500,000,000 in subsidy. affecting operations in United States. with short-term implementation The legislation states: \"$500,000,000 for the accelerated development and integration of advanced 5G/6G technologies for military use;\""
+  ],
+  "DirectRiskFactor": 1.0,
+  "IndirectRiskFactor": 0,
+  "TimeFactor": 0.9
+}

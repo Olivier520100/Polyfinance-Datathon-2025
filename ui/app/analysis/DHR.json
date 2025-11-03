@@ -1,0 +1,12 @@
+{
+  "Ticker": "DHR",
+  "Summary": "Danaher Corporation (DHR) faces high risk from 1 bill, with 1 direct and 2 indirect impacts, including a \u20ac15M fine, indicating significant legislative exposure.",
+  "SummaryKeypoints": [
+    "REGULATION (EU) 2024/1689 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL establishes \u20ac15,000,000 fine. affecting operations in European Union. with short-term implementation The legislation states: \"The Commission may impose on providers of general-purpose AI models fines not exceeding 3 % of their annual total worldwide turnover in the preceding financial year or EUR 15 000 000, whichever is higher.\"",
+    "REGULATION (EU) 2024/1689 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL affects supplier Cepheid (United States) through regulation The legislation specifies: \"Regulation (EU) 2017/746 of the European Parliament and of the Council of 5 April 2017 on in vitro diagnostic medical devices and repealing Directive 98/79/EC and Commission Decision 2010/227/EU\"",
+    "REGULATION (EU) 2024/1689 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL affects supplier Leica Biosystems (Germany) through regulation The legislation specifies: \"Regulation (EU) 2017/745 of the European Parliament and of the Council of 5 April 2017 on medical devices, amending Directive 2001/83/EC, Regulation (EC) No 178/2002 and Regulation (EC) No 1223/2009 and repealing Council Directives 90/385/EEC and 93/42/EEC\""
+  ],
+  "DirectRiskFactor": -1.0,
+  "IndirectRiskFactor": -1.0,
+  "TimeFactor": 0.9
+}

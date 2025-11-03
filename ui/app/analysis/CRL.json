@@ -1,0 +1,10 @@
+{
+  "Ticker": "CRL",
+  "Summary": "Charles River Laboratories (CRL) analysis of 6 bills shows no direct or indirect impacts. Company faces no legislative risk, with zero identified exposures across all reviewed legislation.",
+  "SummaryKeypoints": [
+    "No significant law impacts identified"
+  ],
+  "DirectRiskFactor": 0,
+  "IndirectRiskFactor": 0,
+  "TimeFactor": 0.75
+}

@@ -1,0 +1,10 @@
+{
+  "Ticker": "CVS",
+  "Summary": "CVS Health analyzed 6 bills; no direct or indirect impacts identified. Company faces no legislative risk, with zero direct and indirect impacts, indicating minimal exposure to current proposed legislation.",
+  "SummaryKeypoints": [
+    "No significant law impacts identified"
+  ],
+  "DirectRiskFactor": 0,
+  "IndirectRiskFactor": 0,
+  "TimeFactor": 0.75
+}

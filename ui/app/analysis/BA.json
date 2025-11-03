@@ -1,0 +1,12 @@
+{
+  "Ticker": "BA",
+  "Summary": "Boeing faces direct risk from 2 bills with 3 impacts: $2.5B, $500M subsidies, and $0.50/gallon fuel subsidy. No indirect risks. Overall risk: high due to significant direct financial exposure.",
+  "SummaryKeypoints": [
+    "H.R. 1 - One Big Beautiful Bill Act provides $2,500,000,000 in subsidy. affecting operations in United States. with long-term implementation The legislation states: \"$2,500,000,000 for risk reduction activities for the Sentinel intercontinental ballistic missile program;\"",
+    "H.R. 1 - One Big Beautiful Bill Act provides $500,000,000 in subsidy. affecting operations in United States. with short-term implementation The legislation states: \"$500,000,000 for improvements to the Minuteman III intercontinental ballistic missile system;\"",
+    "H.R. 5376 - Inflation Reduction Act of 2022 provides 0.5 dollars per gallon in subsidy. affecting operations in United States. with short-term implementation The legislation states: \"In no event shall the applicable supplementary amount determined under this subsection exceed $0.50.\""
+  ],
+  "DirectRiskFactor": 1.0,
+  "IndirectRiskFactor": 0,
+  "TimeFactor": 0.9
+}

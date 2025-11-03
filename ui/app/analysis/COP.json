@@ -1,0 +1,14 @@
+{
+  "Ticker": "COP",
+  "Summary": "ConocoPhillips (COP) faces direct risk from 2 bills with 5 impacts: 6 fewer lease sales, 1 less per year, and a 12.5% regulatory reduction. Indirect",
+  "SummaryKeypoints": [
+    "H.R. 1 - One Big Beautiful Bill Act establishes 6 lease sales regulation. affecting operations in Alaska. with long-term implementation The legislation states: \"The Secretary of the Interior shall conduct a minimum of 6 offshore lease sales, in a manner consistent with the schedule described in subparagraph (B), in the Cook Inlet Planning Area as identified in the 2017\u20132022 Outer Continental Shelf Oil and Gas Leasing Proposed Final Program published on November 18, 2016, by the Bureau of Ocean Energy Management\"",
+    "H.R. 1 - One Big Beautiful Bill Act establishes 1 lease sales per year regulation. affecting operations in Alaska. with short-term implementation The legislation states: \"Of the not fewer than 6 lease sales required under this paragraph, the Secretary of the Interior shall hold not fewer than 1 lease sale in the area described in subparagraph (A) in each of calendar years 2026 through 2028, and in each of calendar years 2030 through 2032, by March 15 of the applicable calendar year.\"",
+    "H.R. 1 - One Big Beautiful Bill Act establishes 12.5% regulation. affecting operations in Gulf of America. with short-term implementation The legislation states: \"shall set the royalty rate at not less than 12\u00bd percent but not greater than 16\u2154 percent\"",
+    "H.R. 5376 - Inflation Reduction Act of 2022 provides 0.5 dollars per gallon in subsidy. affecting operations in United States. with short-term implementation The legislation states: \"In no event shall the applicable supplementary amount determined under this subsection exceed $0.50.\"",
+    "H.R. 5376 - Inflation Reduction Act of 2022 imposes tax. affecting operations in United States. with short-term implementation The legislation states: \"The Administrator shall impose and collect a charge on methane emissions that exceed an applicable waste emissions threshold under subsection (f) from an owner or operator of an applicable facility that reports more than 25,000 metric tons of carbon dioxide equivalent of greenhouse gases emitted per year pursuant to subpart W of part 98 of title 40, Code of Federal Regulations, regardless of the reporting threshold under that subpart.\""
+  ],
+  "DirectRiskFactor": 0.185,
+  "IndirectRiskFactor": 0,
+  "TimeFactor": 0.9
+}

@@ -1,0 +1,10 @@
+{
+  "Ticker": "ECL",
+  "Summary": "Ecolab (ECL) analyzed 6 bills; no direct or indirect impacts identified. Legislative review indicates zero risk exposure, with no significant regulatory effects on operations or financial outlook.",
+  "SummaryKeypoints": [
+    "No significant law impacts identified"
+  ],
+  "DirectRiskFactor": 0,
+  "IndirectRiskFactor": 0,
+  "TimeFactor": 0.75
+}

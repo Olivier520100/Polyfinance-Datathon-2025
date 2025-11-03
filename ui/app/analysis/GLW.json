@@ -1,0 +1,10 @@
+{
+  "Ticker": "GLW",
+  "Summary": "Corning Inc. (GLW) analyzed 6 bills; no direct or indirect impacts identified. Legislative impact assessment shows zero risk exposure across all reviewed policies.",
+  "SummaryKeypoints": [
+    "No significant law impacts identified"
+  ],
+  "DirectRiskFactor": 0,
+  "IndirectRiskFactor": 0,
+  "TimeFactor": 0.75
+}

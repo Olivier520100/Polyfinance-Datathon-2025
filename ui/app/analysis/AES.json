@@ -1,0 +1,14 @@
+{
+  "Ticker": "AES",
+  "Summary": "AES Corporation analyzed 2 bills with 5 direct impacts. Key impacts include subsidies up to 10%. Direct risk: -0.107. No indirect risks. Overall risk assessment: low.",
+  "SummaryKeypoints": [
+    "H.R. 1 - One Big Beautiful Bill Act imposes subsidy. affecting operations in United States. with immediate implementation The legislation states: \"Termination and restrictions on clean electricity investment credit.\"",
+    "H.R. 1 - One Big Beautiful Bill Act imposes subsidy. affecting operations in United States. with short-term implementation The legislation states: \"Phase-out and restrictions on advanced manufacturing production credit.\"",
+    "H.R. 5376 - Inflation Reduction Act of 2022 provides 10% in subsidy. affecting operations in United States. with short-term implementation The legislation states: \"In the case of a qualified facility which is located in an energy community, the credit determined under subsection (a) (determined after the application of paragraphs (1) through (10), without the application of paragraph (9)) shall be increased by an amount equal to 10 percent of the amount so determined.\"",
+    "H.R. 5376 - Inflation Reduction Act of 2022 establishes 90% regulation. affecting operations in United States. with short-term implementation The legislation states: \"if construction of such facility began in calendar year 2024, 90 percent.\"",
+    "H.R. 5376 - Inflation Reduction Act of 2022 provides 100% in subsidy. affecting operations in United States. with short-term implementation The legislation states: \"the applicable percentage shall be 100 percent.\""
+  ],
+  "DirectRiskFactor": -0.107,
+  "IndirectRiskFactor": 0,
+  "TimeFactor": 1.0
+}

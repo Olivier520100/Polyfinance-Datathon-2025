@@ -1,0 +1,10 @@
+{
+  "Ticker": "XOM",
+  "Summary": "ExxonMobil analyzed 1 bill with 1 direct regulatory impact. Direct risk is 1.0; no indirect risks. Regulatory change imposes 0% cost increase. Overall risk: low.",
+  "SummaryKeypoints": [
+    "H.R. 1 - One Big Beautiful Bill Act imposes regulation. affecting operations in United States. with long-term implementation The legislation states: \"This section shall not apply to any metallurgical coal produced after December 31, 2029.\""
+  ],
+  "DirectRiskFactor": 1.0,
+  "IndirectRiskFactor": 0,
+  "TimeFactor": 0.75
+}

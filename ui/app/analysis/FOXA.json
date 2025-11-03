@@ -1,0 +1,10 @@
+{
+  "Ticker": "FOXA",
+  "Summary": "Fox Corporation (FOXA) analyzed 6 bills; no direct or indirect impacts identified. Legislative risk assessment: low. No significant regulatory threats detected. (25 words)",
+  "SummaryKeypoints": [
+    "No significant law impacts identified"
+  ],
+  "DirectRiskFactor": 0,
+  "IndirectRiskFactor": 0,
+  "TimeFactor": 0.75
+}

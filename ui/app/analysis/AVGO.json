@@ -1,0 +1,10 @@
+{
+  "Ticker": "AVGO",
+  "Summary": "Broadcom (AVGO) faces no direct or indirect legislative risks from 6 analyzed bills, with zero impacts identified. Overall risk assessment is low.",
+  "SummaryKeypoints": [
+    "No significant law impacts identified"
+  ],
+  "DirectRiskFactor": 0,
+  "IndirectRiskFactor": 0,
+  "TimeFactor": 0.75
+}

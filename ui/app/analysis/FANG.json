@@ -1,0 +1,14 @@
+{
+  "Ticker": "FANG",
+  "Summary": "Diamondback Energy (FANG) faces direct legislative risk (0.75) from 2 bills with 7 direct impacts. No indirect risks. Zero subsidies identified. Overall risk: moderate to high.",
+  "SummaryKeypoints": [
+    "H.R. 1 - One Big Beautiful Bill Act imposes subsidy. affecting operations in United States. with short-term implementation The legislation states: \"Termination of clean hydrogen production credit.\"",
+    "H.R. 1 - One Big Beautiful Bill Act imposes subsidy. affecting operations in United States. with short-term implementation The legislation states: \"Termination and restrictions on clean electricity production credit.\"",
+    "H.R. 1 - One Big Beautiful Bill Act imposes subsidy. affecting operations in United States. with short-term implementation The legislation states: \"Termination and restrictions on clean electricity investment credit.\"",
+    "H.R. 1 - One Big Beautiful Bill Act imposes subsidy. affecting operations in United States. with short-term implementation The legislation states: \"Phase-out and restrictions on advanced manufacturing production credit.\"",
+    "H.R. 1 - One Big Beautiful Bill Act imposes subsidy. affecting operations in United States. with short-term implementation The legislation states: \"Extension and modification of clean fuel production credit.\""
+  ],
+  "DirectRiskFactor": 0.75,
+  "IndirectRiskFactor": 0,
+  "TimeFactor": 0.9
+}

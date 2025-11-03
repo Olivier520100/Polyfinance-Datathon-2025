@@ -1,0 +1,12 @@
+{
+  "Ticker": "APH",
+  "Summary": "Amphenol (APH) analyzed 1 bill with 3 direct impacts, receiving $855M in subsidies. Direct risk: 1.0. No indirect risks. High positive legislative impact.",
+  "SummaryKeypoints": [
+    "H.R. 1 - One Big Beautiful Bill Act provides $250,000,000 in subsidy. affecting operations in United States. with long-term implementation The legislation states: \"$250,000,000 for production capacity expansion and supplier base strengthening of long-range multi-service cruise missiles;\"",
+    "H.R. 1 - One Big Beautiful Bill Act provides $225,000,000 in subsidy. affecting operations in United States. with long-term implementation The legislation states: \"$225,000,000 for the expansion of production capacity for medium-range air-to-air missiles;\"",
+    "H.R. 1 - One Big Beautiful Bill Act provides $380,000,000 in subsidy. affecting operations in United States. with long-term implementation The legislation states: \"$380,000,000 for production capacity expansion for Navy and Air Force long-range anti-ship missiles;\""
+  ],
+  "DirectRiskFactor": 1.0,
+  "IndirectRiskFactor": 0,
+  "TimeFactor": 0.75
+}

@@ -1,0 +1,10 @@
+{
+  "Ticker": "APO",
+  "Summary": "Apollo Global Management (APO) faced 1 bill; no direct impacts, 1 indirect impact. Indirect risk: -1.0. Minimal legislative exposure, low overall risk.",
+  "SummaryKeypoints": [
+    "H.R. 5376 - Inflation Reduction Act of 2022 affects supplier New Fortress Energy (United States) through tax The legislation specifies: \"The Administrator shall impose and collect a charge on methane emissions that exceed an applicable waste emissions threshold under subsection (f) from an owner or operator of an applicable facility that reports more than 25,000 metric tons of carbon dioxide equivalent of greenhouse gases emitted per year pursuant to subpart W of part 98 of title 40, Code of Federal Regulations, regardless of the reporting threshold under that subpart.\""
+  ],
+  "DirectRiskFactor": 0,
+  "IndirectRiskFactor": -1.0,
+  "TimeFactor": 0.9
+}

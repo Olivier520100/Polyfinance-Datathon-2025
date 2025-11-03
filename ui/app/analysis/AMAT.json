@@ -1,0 +1,10 @@
+{
+  "Ticker": "AMAT",
+  "Summary": "Applied Materials (AMAT) analyzed 6 bills; no direct or indirect impacts identified. Legislative review indicates zero risk exposure, with no significant regulatory threats or compliance concerns across assessed policies.",
+  "SummaryKeypoints": [
+    "No significant law impacts identified"
+  ],
+  "DirectRiskFactor": 0,
+  "IndirectRiskFactor": 0,
+  "TimeFactor": 0.75
+}

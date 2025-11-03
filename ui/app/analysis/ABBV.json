@@ -1,0 +1,10 @@
+{
+  "Ticker": "ABBV",
+  "Summary": "AbbVie analyzed 1 bill with direct risk (1.0). One direct impact: an 8% subsidy. No indirect risks. Overall risk assessment: low, single-bill exposure with minor financial impact.",
+  "SummaryKeypoints": [
+    "H.R. 5376 - Inflation Reduction Act of 2022 provides 8% in subsidy. affecting operations in United States. with short-term implementation The legislation states: \"In the case of a qualifying biosimilar biological product that is furnished during the applicable 5-year period for such product, the amount specified in this paragraph for such product with respect to such period is the sum determined under subparagraph (A), except that clause (ii) of such subparagraph shall be applied by substituting \u20188 percent\u2019 for \u20186 percent\u2019.\""
+  ],
+  "DirectRiskFactor": 1.0,
+  "IndirectRiskFactor": 0,
+  "TimeFactor": 0.9
+}

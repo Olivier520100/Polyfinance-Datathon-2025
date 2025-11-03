@@ -1,0 +1,10 @@
+{
+  "Ticker": "CPB",
+  "Summary": "Campbell's Company (CPB) analyzed 6 bills; no direct or indirect impacts identified. Legislative risk assessment indicates minimal exposure, with zero direct and indirect risks across all proposals.",
+  "SummaryKeypoints": [
+    "No significant law impacts identified"
+  ],
+  "DirectRiskFactor": 0,
+  "IndirectRiskFactor": 0,
+  "TimeFactor": 0.75
+}

@@ -1,0 +1,10 @@
+{
+  "Ticker": "DXCM",
+  "Summary": "Dexcom (DXCM) analyzed 1 bill with 1 direct regulatory impact. No indirect impacts. Direct risk: -1.0. Regulatory change may affect pricing, posing low overall risk.",
+  "SummaryKeypoints": [
+    "REGULATION (EU) 2024/1689 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL imposes regulation. affecting operations in European Union. with short-term implementation The legislation states: \"As regards AI systems that are safety components of products, or which are themselves products, falling within the scope of certain Union harmonisation legislation listed in an annex to this Regulation, it is appropriate to classify them as high-risk under this Regulation if the product concerned undergoes the conformity assessment procedure with a third-party conformity assessment body pursuant to that relevant Union harmonisation legislation. In particular, such products are [...] medical devices, in vitro diagnostic medical devices, automotive and aviation.\""
+  ],
+  "DirectRiskFactor": -1.0,
+  "IndirectRiskFactor": 0,
+  "TimeFactor": 0.9
+}

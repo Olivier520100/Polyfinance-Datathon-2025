@@ -1,0 +1,10 @@
+{
+  "Ticker": "DRI",
+  "Summary": "Darden Restaurants (DRI) had 6 bills analyzed; no direct or indirect impacts identified. Overall risk assessment: minimal. No significant legislative threats detected.",
+  "SummaryKeypoints": [
+    "No significant law impacts identified"
+  ],
+  "DirectRiskFactor": 0,
+  "IndirectRiskFactor": 0,
+  "TimeFactor": 0.75
+}

@@ -1,0 +1,12 @@
+{
+  "Ticker": "AJG",
+  "Summary": "Arthur J. Gallagher & Co. (AJG) analyzed 1 bill with 1 direct and 2 indirect impacts. Regulatory impact: 0%. Overall risk assessment: low due to minimal legislative exposure.",
+  "SummaryKeypoints": [
+    "REGULATION (EU) 2024/1689 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL imposes regulation. affecting operations in European Union. with long-term implementation The legislation states: \"AI systems intended to be used for risk assessment and pricing in relation to natural persons for health and life insurance can also have a significant impact on persons\u2019 livelihood and if not duly designed, developed and used, can infringe their fundamental rights and can lead to serious consequences for people\u2019s life and health, including financial exclusion and discrimination.\"",
+    "REGULATION (EU) 2024/1689 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL affects supplier Guidewire Software (United States) through regulation The legislation specifies: \"AI systems intended to be used for risk assessment and pricing in relation to natural persons for health and life insurance can also have a significant impact on persons\u2019 livelihood and if not duly designed, developed and used, can infringe their fundamental rights and can lead to serious consequences for people\u2019s life and health, including financial exclusion and discrimination.\"",
+    "REGULATION (EU) 2024/1689 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL affects supplier Duck Creek Technologies (United States) through regulation The legislation specifies: \"AI systems intended to be used for risk assessment and pricing in relation to natural persons for health and life insurance can also have a significant impact on persons\u2019 livelihood and if not duly designed, developed and used, can infringe their fundamental rights and can lead to serious consequences for people\u2019s life and health, including financial exclusion and discrimination.\""
+  ],
+  "DirectRiskFactor": -1.0,
+  "IndirectRiskFactor": -1.0,
+  "TimeFactor": 0.75
+}

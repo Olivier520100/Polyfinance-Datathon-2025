@@ -1,0 +1,10 @@
+{
+  "Ticker": "CTAS",
+  "Summary": "Cintas (CTAS) analyzed 6 bills; no direct or indirect impacts identified. Overall risk assessment: negligible. Operations unaffected by current legislative proposals.",
+  "SummaryKeypoints": [
+    "No significant law impacts identified"
+  ],
+  "DirectRiskFactor": 0,
+  "IndirectRiskFactor": 0,
+  "TimeFactor": 0.75
+}

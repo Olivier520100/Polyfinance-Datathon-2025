@@ -1,0 +1,10 @@
+{
+  "Ticker": "CCI",
+  "Summary": "Crown Castle (CCI) analyzed 1 bill with 1 direct impact, gaining $500 million in subsidies. Direct risk: 1.0. No indirect impacts. High direct financial benefit identified.",
+  "SummaryKeypoints": [
+    "H.R. 1 - One Big Beautiful Bill Act provides $500,000,000 in subsidy. affecting operations in United States. with short-term implementation The legislation states: \"$500,000,000 for the accelerated development and integration of advanced 5G/6G technologies for military use;\""
+  ],
+  "DirectRiskFactor": 1.0,
+  "IndirectRiskFactor": 0,
+  "TimeFactor": 0.9
+}

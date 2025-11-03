@@ -1,0 +1,14 @@
+{
+  "Ticker": "DTE",
+  "Summary": "DTE Energy (DTE) analyzed 2 bills with 17 direct impacts, primarily zero-value subsidies. Direct risk is 0.375; no indirect risks. Overall legislative risk is low.",
+  "SummaryKeypoints": [
+    "H.R. 1 - One Big Beautiful Bill Act imposes subsidy. affecting operations in United States. with short-term implementation The legislation states: \"Termination and restrictions on clean electricity investment credit.\"",
+    "H.R. 1 - One Big Beautiful Bill Act imposes subsidy. affecting operations in United States. with short-term implementation The legislation states: \"Termination of energy efficient commercial buildings deduction.\"",
+    "H.R. 1 - One Big Beautiful Bill Act imposes subsidy. affecting operations in United States. with short-term implementation The legislation states: \"Termination of residential clean energy credit.\"",
+    "H.R. 1 - One Big Beautiful Bill Act imposes subsidy. affecting operations in United States. with short-term implementation The legislation states: \"Phase-out and restrictions on advanced manufacturing production credit.\"",
+    "H.R. 1 - One Big Beautiful Bill Act imposes regulation. affecting operations in United States. with long-term implementation The legislation states: \"This section shall not apply to any wind energy component produced and sold after December 31, 2027.\""
+  ],
+  "DirectRiskFactor": 0.375,
+  "IndirectRiskFactor": 0,
+  "TimeFactor": 0.9
+}

@@ -1,0 +1,11 @@
+{
+  "Ticker": "ENPH",
+  "Summary": "Enphase Energy (ENPH) analyzed 1 bill with 2 direct subsidy impacts. No financial subsidies identified. Overall risk assessment: low direct risk, no indirect risk. Precise, factual, 25 words.",
+  "SummaryKeypoints": [
+    "H.R. 1 - One Big Beautiful Bill Act imposes subsidy. affecting operations in United States. with short-term implementation The legislation states: \"Termination of residential clean energy credit.\"",
+    "H.R. 1 - One Big Beautiful Bill Act imposes subsidy. affecting operations in United States. with short-term implementation The legislation states: \"Termination of energy efficient home improvement credit.\""
+  ],
+  "DirectRiskFactor": -1.0,
+  "IndirectRiskFactor": 0,
+  "TimeFactor": 0.9
+}

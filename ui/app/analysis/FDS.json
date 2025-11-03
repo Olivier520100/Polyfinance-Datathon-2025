@@ -1,0 +1,10 @@
+{
+  "Ticker": "FDS",
+  "Summary": "FactSet (FDS) analyzed 6 bills; no direct or indirect impacts identified. Overall risk assessment: negligible. Company faces no legislative threats.",
+  "SummaryKeypoints": [
+    "No significant law impacts identified"
+  ],
+  "DirectRiskFactor": 0,
+  "IndirectRiskFactor": 0,
+  "TimeFactor": 0.75
+}

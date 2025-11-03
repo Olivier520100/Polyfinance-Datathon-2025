@@ -1,0 +1,10 @@
+{
+  "Ticker": "AXP",
+  "Summary": "American Express (AXP) faces direct legislative risk from 1 bill, with a 1% tax impact. No indirect risks. Overall risk: low. One direct impact assessed.",
+  "SummaryKeypoints": [
+    "H.R. 1 - One Big Beautiful Bill Act imposes 1% tax. affecting operations in United States. with immediate implementation The legislation states: \"There is hereby imposed on any remittance transfer a tax equal to 1 percent of the amount of such transfer.\""
+  ],
+  "DirectRiskFactor": -1.0,
+  "IndirectRiskFactor": 0,
+  "TimeFactor": 1.0
+}
