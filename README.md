@@ -14,4 +14,4 @@ Il combine analyse financière, recherche web et traitement de textes législati
 - 🧩 Fusion intelligente des données dans un **rapport synthétique final**  
 
 ---
-Il suffit de cliquer sur le lien suivant pour utiliser la web app --------> https://regulaize-datathon.vercel.app 
+Il suffit de cliquer sur le lien suivant pour utiliser la web app (TOUT EST INTERACTIF) --------> https://regulaize-datathon.vercel.app 
