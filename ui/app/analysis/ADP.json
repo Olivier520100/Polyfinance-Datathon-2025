@@ -1,10 +1,12 @@
 {
   "Ticker": "ADP",
-  "Summary": "Automatic Data Processing (ADP) analyzed 6 bills; no direct or indirect impacts identified. Overall risk assessment: negligible. Operations unaffected by current legislative proposals.",
+  "Summary": "Automatic Data Processing (ADP) analyzed 1 bill with 1 direct and 1 indirect impact. Regulatory impact is 0%. Overall risk assessment: low, with minimal legislative exposure.",
   "SummaryKeypoints": [
-    "No significant law impacts identified"
+    "REGULATION (EU) 2024/1689 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL imposes regulation. affecting operations in European Union. with short-term implementation The legislation states: \"the placing on the market, the putting into service, or the use of AI systems intended to be used to detect the emotional state of individuals in situations related to the workplace and education should be prohibited.\"",
+    "REGULATION (EU) 2024/1689 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL affects supplier providers of general-purpose AI models (Global) through fine The legislation specifies: \"The Commission may impose on providers of general-purpose AI models fines not exceeding 3 % of their annual total worldwide turnover in the preceding financial year or EUR 15 000 000, whichever is higher.\""
   ],
-  "DirectRiskFactor": 0,
-  "IndirectRiskFactor": 0,
-  "TimeFactor": 0.75
+  "DirectRiskFactor": -0.95,
+  "IndirectRiskFactor": -0.95,
+  "TimeFactor": 1.0,
+  "OverallRiskScore": -1.0
 }

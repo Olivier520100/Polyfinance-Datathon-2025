@@ -1,10 +1,11 @@
 {
   "Ticker": "APD",
-  "Summary": "Air Products (APD) faced 1 bill analyzed; no direct impacts, 1 indirect impact. Indirect risk score: 1.0. Overall risk: low, primarily from peripheral regulatory influences.",
+  "Summary": "Air Products (APD) analyzed 6 bills; no direct or indirect impacts identified. Legislative risk is minimal, with no significant regulatory threats or compliance concerns across reviewed legislation.",
   "SummaryKeypoints": [
-    "H.R. 5376 - Inflation Reduction Act of 2022 affects supplier Environmental Protection Agency through subsidy The legislation specifies: \"In addition to amounts otherwise available, there is appropriated to the Administrator for fiscal year 2022, out of any money in the Treasury not otherwise appropriated, $700,000,000, to remain available until September 30, 2028, for activities described in paragraphs (1) through (4) of subsection (a) at marginal conventional wells.\""
+    "No significant law impacts identified"
   ],
   "DirectRiskFactor": 0,
-  "IndirectRiskFactor": 1.0,
-  "TimeFactor": 0.9
+  "IndirectRiskFactor": 0,
+  "TimeFactor": 0.75,
+  "OverallRiskScore": -0.037
 }

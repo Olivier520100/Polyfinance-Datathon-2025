@@ -1,10 +1,11 @@
 {
   "Ticker": "TECH",
-  "Summary": "Bio-Techne (TECH) analyzed 6 bills; no direct or indirect impacts identified. Legislative review indicates zero risk exposure across all assessed policies.",
+  "Summary": "Bio-Techne (TECH) faces no direct or indirect risks from the 6 bills analyzed; no impacts identified; overall risk assessment is low.",
   "SummaryKeypoints": [
     "No significant law impacts identified"
   ],
   "DirectRiskFactor": 0,
   "IndirectRiskFactor": 0,
-  "TimeFactor": 0.75
+  "TimeFactor": 0.75,
+  "OverallRiskScore": -0.043
 }

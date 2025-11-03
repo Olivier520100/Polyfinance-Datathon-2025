@@ -1,14 +1,11 @@
 {
   "Ticker": "AVB",
-  "Summary": "AvalonBay Communities (AVB) analyzed 1 bill with 6 direct impacts, including $600,000 in subsidies and a 50% funding increase. Direct risk: 0.769; no indirect risks.",
+  "Summary": "AvalonBay Communities (AVB) faced no direct or indirect impacts from 6 analyzed bills. Legislative activity poses minimal risk; no significant policy threats identified. Overall risk: low.",
   "SummaryKeypoints": [
-    "H.R. 5376 - Inflation Reduction Act of 2022 provides $400,000 in subsidy. affecting operations in United States. with short-term implementation The legislation states: \"in the case of a retrofit that achieves modeled energy system savings of not less than 35 percent, $4,000 per dwelling unit, with a maximum of $400,000 per multifamily building\"",
-    "H.R. 5376 - Inflation Reduction Act of 2022 provides $200,000 in subsidy. affecting operations in United States. with short-term implementation The legislation states: \"in the case of a retrofit that achieves modeled energy system savings of not less than 20 percent but less than 35 percent, $2,000 per dwelling unit, with a maximum of $200,000 per multifamily building\"",
-    "H.R. 5376 - Inflation Reduction Act of 2022 provides 50% in subsidy. affecting operations in United States. with short-term implementation The legislation states: \"50 percent of the project cost\"",
-    "H.R. 5376 - Inflation Reduction Act of 2022 provides 100% in subsidy. affecting operations in United States. with short-term implementation The legislation states: \"100 percent of the cost of the qualified electrification project for a multifamily building not less than 50 percent of the residents of which are households the annual income of which is less than 80 percent of the area median income;\"",
-    "H.R. 5376 - Inflation Reduction Act of 2022 provides 50% in subsidy. affecting operations in United States. with short-term implementation The legislation states: \"50 percent of the cost of the qualified electrification project for a multifamily building not less than 50 percent of the residents of which are households the annual income of which is not less than 80 percent and not greater than 150 percent of the area median income;\""
+    "No significant law impacts identified"
   ],
-  "DirectRiskFactor": 0.769,
+  "DirectRiskFactor": 0,
   "IndirectRiskFactor": 0,
-  "TimeFactor": 0.9
+  "TimeFactor": 0.75,
+  "OverallRiskScore": -0.04
 }

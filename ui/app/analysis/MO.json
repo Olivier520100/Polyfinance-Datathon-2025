@@ -1,10 +1,11 @@
 {
   "Ticker": "MO",
-  "Summary": "Altria (MO) faced 6 bills analyzed; no direct or indirect impacts identified. Overall risk assessment: low. Company operations unaffected by current legislative proposals.",
+  "Summary": "Altria (MO) faces no direct or indirect risks from the 6 bills analyzed; no significant impacts identified; overall risk assessment is low.",
   "SummaryKeypoints": [
     "No significant law impacts identified"
   ],
   "DirectRiskFactor": 0,
   "IndirectRiskFactor": 0,
-  "TimeFactor": 0.75
+  "TimeFactor": 0.75,
+  "OverallRiskScore": -0.045
 }

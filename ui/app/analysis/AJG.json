@@ -1,12 +1,11 @@
 {
   "Ticker": "AJG",
-  "Summary": "Arthur J. Gallagher & Co. (AJG) analyzed 1 bill with 1 direct and 2 indirect impacts. Regulatory impact: 0%. Overall risk assessment: low due to minimal legislative exposure.",
+  "Summary": "Arthur J. Gallagher & Co. (AJG) faced 1 bill with no direct risk but moderate indirect risk (-0.95), indicating minimal legislative exposure and low overall impact across analyzed policies.",
   "SummaryKeypoints": [
-    "REGULATION (EU) 2024/1689 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL imposes regulation. affecting operations in European Union. with long-term implementation The legislation states: \"AI systems intended to be used for risk assessment and pricing in relation to natural persons for health and life insurance can also have a significant impact on persons\u2019 livelihood and if not duly designed, developed and used, can infringe their fundamental rights and can lead to serious consequences for people\u2019s life and health, including financial exclusion and discrimination.\"",
-    "REGULATION (EU) 2024/1689 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL affects supplier Guidewire Software (United States) through regulation The legislation specifies: \"AI systems intended to be used for risk assessment and pricing in relation to natural persons for health and life insurance can also have a significant impact on persons\u2019 livelihood and if not duly designed, developed and used, can infringe their fundamental rights and can lead to serious consequences for people\u2019s life and health, including financial exclusion and discrimination.\"",
-    "REGULATION (EU) 2024/1689 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL affects supplier Duck Creek Technologies (United States) through regulation The legislation specifies: \"AI systems intended to be used for risk assessment and pricing in relation to natural persons for health and life insurance can also have a significant impact on persons\u2019 livelihood and if not duly designed, developed and used, can infringe their fundamental rights and can lead to serious consequences for people\u2019s life and health, including financial exclusion and discrimination.\""
+    "REGULATION (EU) 2024/1689 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL affects supplier providers of general-purpose AI models (global) through fine The legislation specifies: \"The Commission may impose on providers of general-purpose AI models fines not exceeding 3 % of their annual total worldwide turnover in the preceding financial year or EUR 15 000 000, whichever is higher.\""
   ],
-  "DirectRiskFactor": -1.0,
-  "IndirectRiskFactor": -1.0,
-  "TimeFactor": 0.75
+  "DirectRiskFactor": 0,
+  "IndirectRiskFactor": -0.95,
+  "TimeFactor": 1.0,
+  "OverallRiskScore": -0.42
 }

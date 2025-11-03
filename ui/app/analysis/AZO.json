@@ -1,10 +1,11 @@
 {
   "Ticker": "AZO",
-  "Summary": "AutoZone (AZO) faces no direct or indirect risks from the 6 bills analyzed; no significant impacts identified; overall legislative risk assessment is low.",
+  "Summary": "AutoZone (AZO) faced no direct or indirect impacts from 6 analyzed bills. Legislative review indicates zero risk exposure, with no significant policy effects identified. Overall risk assessment: negligible.",
   "SummaryKeypoints": [
     "No significant law impacts identified"
   ],
   "DirectRiskFactor": 0,
   "IndirectRiskFactor": 0,
-  "TimeFactor": 0.75
+  "TimeFactor": 0.75,
+  "OverallRiskScore": -0.035
 }

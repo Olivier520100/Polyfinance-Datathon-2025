@@ -6,5 +6,6 @@
   ],
   "DirectRiskFactor": 0,
   "IndirectRiskFactor": 0,
-  "TimeFactor": 0.75
+  "TimeFactor": 0.75,
+  "OverallRiskScore": -0.044
 }

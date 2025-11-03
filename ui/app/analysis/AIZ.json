@@ -1,10 +1,12 @@
 {
   "Ticker": "AIZ",
-  "Summary": "Assurant (AIZ) faced no direct or indirect impacts from 6 analyzed bills. No significant legislative risks identified. Overall risk assessment: low.",
+  "Summary": "Assurant (AIZ) faces high risk from 1 bill, with 1 direct and 1 indirect impact, including a \u20ac15M fine, indicating significant financial exposure.",
   "SummaryKeypoints": [
-    "No significant law impacts identified"
+    "REGULATION (EU) 2024/1689 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL establishes \u20ac15,000,000 fine. affecting operations in European Union. with short-term implementation The legislation states: \"The Commission may impose on providers of general-purpose AI models fines not exceeding 3 % of their annual total worldwide turnover in the preceding financial year or EUR 15 000 000, whichever is higher.\"",
+    "REGULATION (EU) 2024/1689 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL affects supplier Arcadium Technologies LLC through fine The legislation specifies: \"The Commission may impose on providers of general-purpose AI models fines not exceeding 3 % of their annual total worldwide turnover in the preceding financial year or EUR 15 000 000, whichever is higher.\""
   ],
-  "DirectRiskFactor": 0,
-  "IndirectRiskFactor": 0,
-  "TimeFactor": 0.75
+  "DirectRiskFactor": -0.95,
+  "IndirectRiskFactor": -0.95,
+  "TimeFactor": 0.9,
+  "OverallRiskScore": -0.908
 }

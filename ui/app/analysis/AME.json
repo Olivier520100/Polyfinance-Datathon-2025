@@ -1,10 +1,11 @@
 {
   "Ticker": "AME",
-  "Summary": "Ametek (AME) faces direct risk from 1 analyzed bill, with 1 direct impact: a \u20ac15M fine. No indirect risks. Overall risk assessment: high due to financial penalty exposure.",
+  "Summary": "Ametek (AME) analyzed 6 bills; no direct or indirect impacts identified. Overall risk assessment: low. Company faces negligible legislative exposure in current review.",
   "SummaryKeypoints": [
-    "REGULATION (EU) 2024/1689 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL establishes \u20ac15,000,000 fine. affecting operations in European Union. with short-term implementation The legislation states: \"The Commission may impose on providers of general-purpose AI models fines not exceeding 3 % of their annual total worldwide turnover in the preceding financial year or EUR 15 000 000, whichever is higher.\""
+    "No significant law impacts identified"
   ],
-  "DirectRiskFactor": -1.0,
+  "DirectRiskFactor": 0,
   "IndirectRiskFactor": 0,
-  "TimeFactor": 0.9
+  "TimeFactor": 0.75,
+  "OverallRiskScore": -0.04
 }

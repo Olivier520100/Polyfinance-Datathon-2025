@@ -1,6 +1,6 @@
 {
   "Ticker": "AMZN",
-  "Summary": "Amazon analyzed 2 bills, facing 14 direct impacts including a \u20ac15M fine. No indirect risks. Overall risk assessment: high direct financial and regulatory exposure.",
+  "Summary": "Amazon analyzed 2 bills, facing 13 direct impacts including a \u20ac15M fine. No indirect risks. Overall risk assessment: high direct financial and regulatory exposure.",
   "SummaryKeypoints": [
     "REGULATION (EU) 2024/1689 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL establishes \u20ac15,000,000 fine. affecting operations in European Union. with short-term implementation The legislation states: \"The Commission may impose on providers of general-purpose AI models fines not exceeding 3 % of their annual total worldwide turnover in the preceding financial year or EUR 15 000 000, whichever is higher.\"",
     "Directive (UE) 2019/2161 du Parlement europ\u00e9en et du Conseil imposes regulation. affecting operations in European Union. with short-term implementation The legislation states: \"Les professionnels qui permettent aux consommateurs de rechercher des biens et des services, tels que des voyages, des h\u00e9bergements et des activit\u00e9s de loisirs, propos\u00e9s par diff\u00e9rents professionnels ou par des consommateurs, devraient informer les consommateurs des principaux param\u00e8tres par d\u00e9faut qui d\u00e9terminent le classement des offres pr\u00e9sent\u00e9es au consommateur dans le r\u00e9sultat de la recherche et de leur importance relative par rapport \u00e0 d\u2019autres param\u00e8tres.\"",
@@ -11,5 +11,5 @@
   "DirectRiskFactor": -1.0,
   "IndirectRiskFactor": 0,
   "TimeFactor": 0.9,
-  "OverallRiskScore": -0.641
+  "OverallRiskScore": -0.634
 }

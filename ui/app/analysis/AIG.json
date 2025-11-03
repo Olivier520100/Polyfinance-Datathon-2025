@@ -1,13 +1,14 @@
 {
   "Ticker": "AIG",
-  "Summary": "American International Group (AIG) analyzed 1 bill, facing 1 direct and 3 indirect impacts. Regulatory impact is 0%. Direct and indirect risks are both -1.0, indicating minimal legislative threat.",
+  "Summary": "American International Group (AIG) analyzed 1 bill with 2 direct and 2 indirect impacts. Key impacts involve regulation. Overall risk assessment shows minimal regulatory change exposure.",
   "SummaryKeypoints": [
-    "REGULATION (EU) 2024/1689 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL imposes regulation. affecting operations in European Union. with short-term implementation The legislation states: \"AI systems intended to be used for risk assessment and pricing in relation to natural persons for health and life insurance can also have a significant impact on persons\u2019 livelihood and if not duly designed, developed and used, can infringe their fundamental rights and can lead to serious consequences for people\u2019s life and health, including financial exclusion and discrimination.\"",
+    "REGULATION (EU) 2024/1689 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL imposes regulation. affecting operations in European Union. with long-term implementation The legislation states: \"AI systems intended to be used for risk assessment and pricing in relation to natural persons for health and life insurance can also have a significant impact on persons\u2019 livelihood and if not duly designed, developed and used, can infringe their fundamental rights and can lead to serious consequences for people\u2019s life and health, including financial exclusion and discrimination.\"",
+    "REGULATION (EU) 2024/1689 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL imposes regulation. affecting operations in European Union. with short-term implementation The legislation states: \"AI systems intended to be used for risk assessment and pricing in relation to natural persons in the case of life and health insurance\"",
     "REGULATION (EU) 2024/1689 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL affects supplier Anthropic (United States) through regulation The legislation specifies: \"obligations for providers of general-purpose AI models should apply from 2 August 2025.\"",
-    "REGULATION (EU) 2024/1689 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL affects supplier Anthropic (United States) through regulation The legislation specifies: \"A general-purpose AI model shall be presumed to have high impact capabilities pursuant to paragraph 1, point (a), when the cumulative amount of computation used for its training measured in floating point operations is greater than 1025.\"",
     "REGULATION (EU) 2024/1689 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL affects supplier Anthropic (United States) through fine The legislation specifies: \"The Commission may impose on providers of general-purpose AI models fines not exceeding 3 % of their annual total worldwide turnover in the preceding financial year or EUR 15 000 000, whichever is higher.\""
   ],
   "DirectRiskFactor": -1.0,
   "IndirectRiskFactor": -1.0,
-  "TimeFactor": 0.9
+  "TimeFactor": 0.9,
+  "OverallRiskScore": -0.956
 }

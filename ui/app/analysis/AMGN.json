@@ -1,10 +1,11 @@
 {
   "Ticker": "AMGN",
-  "Summary": "Amgen (AMGN) analyzed 6 bills; no direct or indirect impacts identified. Overall risk assessment: negligible. Legislative activity poses minimal threat to operations or financial outlook.",
+  "Summary": "Amgen (AMGN) analyzed 6 bills; no direct or indirect impacts identified. Legislative impact assessment shows zero risk exposure across all evaluated policies. (25 words)",
   "SummaryKeypoints": [
     "No significant law impacts identified"
   ],
   "DirectRiskFactor": 0,
   "IndirectRiskFactor": 0,
-  "TimeFactor": 0.75
+  "TimeFactor": 0.75,
+  "OverallRiskScore": -0.043
 }

@@ -1,10 +1,11 @@
 {
   "Ticker": "ACGL",
-  "Summary": "Arch Capital Group (ACGL) faced no direct or indirect impacts from 6 analyzed bills. No significant legislative risks identified. Overall risk assessment: low.",
+  "Summary": "Arch Capital Group (ACGL) faces no direct or indirect legislative risks from the 6 bills analyzed; no significant impacts identified; overall risk assessment is low.",
   "SummaryKeypoints": [
     "No significant law impacts identified"
   ],
   "DirectRiskFactor": 0,
   "IndirectRiskFactor": 0,
-  "TimeFactor": 0.75
+  "TimeFactor": 0.75,
+  "OverallRiskScore": -0.048
 }

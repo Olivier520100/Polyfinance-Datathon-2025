@@ -1,10 +1,11 @@
 {
   "Ticker": "AMP",
-  "Summary": "Ameriprise Financial (AMP) faced no direct or indirect impacts from 6 analyzed bills. No key impacts identified. Overall risk assessment: low.",
+  "Summary": "Ameriprise Financial (AMP) faces no direct or indirect impacts from the 6 bills analyzed; overall risk assessment is low with zero identified legislative impacts.",
   "SummaryKeypoints": [
     "No significant law impacts identified"
   ],
   "DirectRiskFactor": 0,
   "IndirectRiskFactor": 0,
-  "TimeFactor": 0.75
+  "TimeFactor": 0.75,
+  "OverallRiskScore": -0.041
 }

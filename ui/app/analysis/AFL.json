@@ -1,10 +1,11 @@
 {
   "Ticker": "AFL",
-  "Summary": "Aflac (AFL) analyzed 1 bill with 1 direct regulatory impact. Direct risk: -1.0. No indirect risks. Regulatory change poses minimal financial impact at 0%. Overall risk assessment: low.",
+  "Summary": "Aflac (AFL) faced 1 bill with 1 direct regulatory impact. Direct risk: -0.95. No indirect risks. Minimal legislative threat; overall risk low.",
   "SummaryKeypoints": [
     "REGULATION (EU) 2024/1689 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL imposes regulation. affecting operations in European Union. with short-term implementation The legislation states: \"AI systems intended to be used for risk assessment and pricing in relation to natural persons for health and life insurance can also have a significant impact on persons\u2019 livelihood and if not duly designed, developed and used, can infringe their fundamental rights and can lead to serious consequences for people\u2019s life and health, including financial exclusion and discrimination.\""
   ],
-  "DirectRiskFactor": -1.0,
+  "DirectRiskFactor": -0.95,
   "IndirectRiskFactor": 0,
-  "TimeFactor": 0.9
+  "TimeFactor": 0.9,
+  "OverallRiskScore": -0.607
 }

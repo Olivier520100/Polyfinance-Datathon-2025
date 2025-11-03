@@ -1,10 +1,11 @@
 {
   "Ticker": "BIIB",
-  "Summary": "Biogen (BIIB) faces one bill with direct risk (1.0), no indirect risk. One direct impact: 8% subsidy. Overall risk is low; single legislative exposure affects financial incentives.",
+  "Summary": "Biogen (BIIB) faces no direct or indirect risks from the 6 bills analyzed; no significant impacts identified; overall legislative risk assessment is low.",
   "SummaryKeypoints": [
-    "H.R. 5376 - Inflation Reduction Act of 2022 provides 8% in subsidy. affecting operations in United States. with short-term implementation The legislation states: \"In the case of a qualifying biosimilar biological product that is furnished during the applicable 5-year period for such product, the amount specified in this paragraph for such product with respect to such period is the sum determined under subparagraph (A), except that clause (ii) of such subparagraph shall be applied by substituting \u20188 percent\u2019 for \u20186 percent\u2019.\""
+    "No significant law impacts identified"
   ],
-  "DirectRiskFactor": 1.0,
+  "DirectRiskFactor": 0,
   "IndirectRiskFactor": 0,
-  "TimeFactor": 0.9
+  "TimeFactor": 0.75,
+  "OverallRiskScore": -0.045
 }

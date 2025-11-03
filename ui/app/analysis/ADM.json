@@ -1,10 +1,15 @@
 {
   "Ticker": "ADM",
-  "Summary": "Archer Daniels Midland (ADM) analyzed 1 bill with 1 direct impact: a $0.50 per gallon subsidy. Direct risk is 1.0; no indirect risks. High exposure to policy-driven financial incentives.",
+  "Summary": "Archer Daniels Midland (ADM) faces direct legislative risk (-0.714) from 2 bills with 6 direct impacts. No indirect risks. Top impacts are subsidies totaling $0. Overall risk: moderate.",
   "SummaryKeypoints": [
-    "H.R. 5376 - Inflation Reduction Act of 2022 provides 0.5 dollars per gallon in subsidy. affecting operations in United States. with short-term implementation The legislation states: \"In no event shall the applicable supplementary amount determined under this subsection exceed $0.50.\""
+    "H.R. 1 - One Big Beautiful Bill Act imposes subsidy. affecting operations in United States. with short-term implementation The legislation states: \"Termination of alternative fuel vehicle refueling property credit.\"",
+    "H.R. 1 - One Big Beautiful Bill Act imposes subsidy. affecting operations in United States. with long-term implementation The legislation states: \"Termination of clean hydrogen production credit.\"",
+    "H.R. 1 - One Big Beautiful Bill Act imposes subsidy. affecting operations in United States. with long-term implementation The legislation states: \"Termination and restrictions on clean electricity production credit.\"",
+    "H.R. 1 - One Big Beautiful Bill Act imposes subsidy. affecting operations in United States. with short-term implementation The legislation states: \"Phase-out and restrictions on advanced manufacturing production credit.\"",
+    "H.R. 1 - One Big Beautiful Bill Act imposes subsidy. affecting operations in United States. with long-term implementation The legislation states: \"Restriction on the extension of advanced energy project credit program.\""
   ],
-  "DirectRiskFactor": 1.0,
+  "DirectRiskFactor": -0.714,
   "IndirectRiskFactor": 0,
-  "TimeFactor": 0.9
+  "TimeFactor": 0.85,
+  "OverallRiskScore": -0.427
 }

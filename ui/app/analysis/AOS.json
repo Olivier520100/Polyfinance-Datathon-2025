@@ -1,12 +1,13 @@
 {
   "Ticker": "AOS",
-  "Summary": "A. O. Smith (AOS) faces direct risk from 1 bill with 3 subsidy impacts totaling $1,950 and 100%; indirect risk is 0. Overall risk is low.",
+  "Summary": "A. O. Smith (AOS) faces direct risk from 1 bill with 3 subsidy impacts totaling $3,950. No indirect risks. Overall risk assessment: low, primarily financial incentives.",
   "SummaryKeypoints": [
+    "H.R. 5376 - Inflation Reduction Act of 2022 provides $2,000 in subsidy. affecting operations in United States. with short-term implementation The legislation states: \"in the case of a retrofit that achieves modeled energy system savings of not less than 20 percent but less than 35 percent, the lesser of\u2014 (I) $2,000; and (II) 50 percent of the project cost;\"",
     "H.R. 5376 - Inflation Reduction Act of 2022 provides $200 in subsidy. affecting operations in United States. with short-term implementation The legislation states: \"to provide a contractor performing a home energy efficiency retrofit or an aggregator who has the right to claim a rebate $200 for each home located in a disadvantaged community that receives a home energy efficiency retrofit for which a rebate is provided under the program;\"",
-    "H.R. 5376 - Inflation Reduction Act of 2022 provides 100% in subsidy. affecting operations in United States. with short-term implementation The legislation states: \"The amount of a rebate provided under a high-efficiency electric home rebate program for the purchase of an appliance under\"",
     "H.R. 5376 - Inflation Reduction Act of 2022 provides $1,750 in subsidy. affecting operations in United States. with short-term implementation The legislation states: \"not more than $1,750 for a heat pump water heater;\""
   ],
   "DirectRiskFactor": 1.0,
   "IndirectRiskFactor": 0,
-  "TimeFactor": 0.9
+  "TimeFactor": 0.9,
+  "OverallRiskScore": 0.522
 }

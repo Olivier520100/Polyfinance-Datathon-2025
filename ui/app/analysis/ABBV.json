@@ -1,11 +1,11 @@
 {
   "Ticker": "ABBV",
-  "Summary": "AbbVie (ABBV) faces no direct or indirect risk from the 6 bills analyzed; no significant impacts identified; overall risk assessment is low.",
+  "Summary": "AbbVie (ABBV) analysis of 6 bills shows no direct or indirect impacts. No key legislative risks identified. Overall risk assessment: low.",
   "SummaryKeypoints": [
     "No significant law impacts identified"
   ],
   "DirectRiskFactor": 0,
   "IndirectRiskFactor": 0,
   "TimeFactor": 0.75,
-  "OverallRiskScore": -0.052
+  "OverallRiskScore": -0.041
 }

@@ -1,10 +1,13 @@
 {
   "Ticker": "ALL",
-  "Summary": "Allstate (ALL) faces no direct or indirect impacts from 6 analyzed bills. No significant legislative risks identified. Overall risk assessment: low.",
+  "Summary": "Allstate (ALL) faced 1 bill with 3 direct regulatory impacts, no indirect effects. Direct risk: -1.0. Zero percent regulatory value changes. Low overall legislative risk.",
   "SummaryKeypoints": [
-    "No significant law impacts identified"
+    "REGULATION (EU) 2024/1689 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL imposes regulation. affecting operations in European Union. with long-term implementation The legislation states: \"AI systems intended to be used for risk assessment and pricing in relation to natural persons for health and life insurance can also have a significant impact on persons\u2019 livelihood and if not duly designed, developed and used, can infringe their fundamental rights and can lead to serious consequences for people\u2019s life and health, including financial exclusion and discrimination.\"",
+    "REGULATION (EU) 2024/1689 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL imposes regulation. affecting operations in European Union. with short-term implementation The legislation states: \"deployers of certain high-risk AI systems listed in an annex to this Regulation, such as banking or insurance entities, should carry out a fundamental rights impact assessment prior to putting it into use.\"",
+    "REGULATION (EU) 2024/1689 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL imposes regulation. affecting operations in European Union. with long-term implementation The legislation states: \"AI systems intended to be used for risk assessment and pricing in relation to natural persons in the case of life and health insurance\""
   ],
-  "DirectRiskFactor": 0,
+  "DirectRiskFactor": -1.0,
   "IndirectRiskFactor": 0,
-  "TimeFactor": 0.75
+  "TimeFactor": 0.85,
+  "OverallRiskScore": -0.581
 }

@@ -1,10 +1,12 @@
 {
   "Ticker": "AMD",
-  "Summary": "Advanced Micro Devices analyzed 1 bill, facing 1 direct impact: a \u20ac15 million fine. Indirect impacts: 0. Overall risk assessment: high direct financial exposure.",
+  "Summary": "Advanced Micro Devices analyzed 2 bills with 2 direct impacts: a $150M subsidy and a \u20ac15M fine. Direct risk: -0.143. No indirect impacts. Overall risk low.",
   "SummaryKeypoints": [
+    "H.R. 1 - One Big Beautiful Bill Act provides $150,000,000 in subsidy. affecting operations in United States. with short-term implementation The legislation states: \"There is appropriated, out of any funds in the Treasury not otherwise appropriated, $150,000,000, to remain available through September 30, 2026, to carry out this section.\"",
     "REGULATION (EU) 2024/1689 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL establishes \u20ac15,000,000 fine. affecting operations in European Union. with short-term implementation The legislation states: \"The Commission may impose on providers of general-purpose AI models fines not exceeding 3 % of their annual total worldwide turnover in the preceding financial year or EUR 15 000 000, whichever is higher.\""
   ],
-  "DirectRiskFactor": -1.0,
+  "DirectRiskFactor": -0.143,
   "IndirectRiskFactor": 0,
-  "TimeFactor": 0.9
+  "TimeFactor": 0.9,
+  "OverallRiskScore": -0.131
 }

@@ -1,11 +1,11 @@
 {
   "Ticker": "BRK.B",
-  "Summary": "Berkshire Hathaway (BRK.B) analysis of 6 bills shows no direct or indirect impacts. Company faces no legislative risk, with zero identified exposures across all reviewed legislation.",
+  "Summary": "Berkshire Hathaway analyzed 1 bill with 1 direct tax impact increasing rates by 1%. Direct risk: -0.95. No indirect impacts. Overall risk assessment: low to moderate.",
   "SummaryKeypoints": [
-    "No significant law impacts identified"
+    "H.R. 1 - One Big Beautiful Bill Act imposes 1% tax. affecting operations in United States. with short-term implementation The legislation states: \"There is hereby imposed on any remittance transfer a tax equal to 1 percent of the amount of such transfer.\""
   ],
-  "DirectRiskFactor": 0,
+  "DirectRiskFactor": -0.95,
   "IndirectRiskFactor": 0,
-  "TimeFactor": 0.75,
-  "OverallRiskScore": 0.0
+  "TimeFactor": 0.9,
+  "OverallRiskScore": -0.549
 }

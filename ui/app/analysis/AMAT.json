@@ -1,10 +1,12 @@
 {
   "Ticker": "AMAT",
-  "Summary": "Applied Materials (AMAT) analyzed 6 bills; no direct or indirect impacts identified. Legislative review indicates zero risk exposure, with no significant regulatory threats or compliance concerns across assessed policies.",
+  "Summary": "Applied Materials (AMAT) analyzed 1 bill with 0 direct and 2 indirect impacts. Indirect risk score: -1.0. Minimal legislative risk; no immediate threats identified.",
   "SummaryKeypoints": [
-    "No significant law impacts identified"
+    "REGULATION (EU) 2024/1689 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL affects supplier providers of general-purpose AI models through fine The legislation specifies: \"The Commission may impose on providers of general-purpose AI models fines not exceeding 3 % of their annual total worldwide turnover in the preceding financial year or EUR 15 000 000, whichever is higher.\"",
+    "REGULATION (EU) 2024/1689 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL affects supplier providers of general-purpose AI models through fine The legislation specifies: \"The Commission may impose on providers of general-purpose AI models fines not exceeding 3 % of their annual total worldwide turnover in the preceding financial year or EUR 15 000 000, whichever is higher.\""
   ],
   "DirectRiskFactor": 0,
-  "IndirectRiskFactor": 0,
-  "TimeFactor": 0.75
+  "IndirectRiskFactor": -1.0,
+  "TimeFactor": 1.0,
+  "OverallRiskScore": -0.449
 }

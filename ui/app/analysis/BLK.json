@@ -1,11 +1,13 @@
 {
   "Ticker": "BLK",
-  "Summary": "BlackRock (BLK) faced 1 bill analyzed; no direct impacts, 2 indirect impacts. Indirect risk score: -1.0. Overall risk assessment: low, primarily from external regulatory influences.",
+  "Summary": "BlackRock (BLK) faced 1 bill with 0 direct and 3 indirect impacts. Indirect risk score: -1.0. No top impacts identified. Overall risk assessment: low.",
   "SummaryKeypoints": [
-    "REGULATION (EU) 2024/1689 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL affects supplier Microsoft through fine The legislation specifies: \"The Commission may impose on providers of general-purpose AI models fines not exceeding 3 % of their annual total worldwide turnover in the preceding financial year or EUR 15 000 000, whichever is higher.\"",
-    "REGULATION (EU) 2024/1689 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL affects supplier Envestnet Data & Analytics through fine The legislation specifies: \"The Commission may impose on providers of general-purpose AI models fines not exceeding 3 % of their annual total worldwide turnover in the preceding financial year or EUR 15 000 000, whichever is higher.\""
+    "REGULATION (EU) 2024/1689 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL affects supplier NVIDIA (United States) through fine The legislation specifies: \"The Commission may impose on providers of general-purpose AI models fines not exceeding 3 % of their annual total worldwide turnover in the preceding financial year or EUR 15 000 000, whichever is higher.\"",
+    "REGULATION (EU) 2024/1689 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL affects supplier Microsoft (United States) through fine The legislation specifies: \"The Commission may impose on providers of general-purpose AI models fines not exceeding 3 % of their annual total worldwide turnover in the preceding financial year or EUR 15 000 000, whichever is higher.\"",
+    "REGULATION (EU) 2024/1689 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL affects supplier xAI (United States) through fine The legislation specifies: \"The Commission may impose on providers of general-purpose AI models fines not exceeding 3 % of their annual total worldwide turnover in the preceding financial year or EUR 15 000 000, whichever is higher.\""
   ],
   "DirectRiskFactor": 0,
   "IndirectRiskFactor": -1.0,
-  "TimeFactor": 0.9
+  "TimeFactor": 0.9,
+  "OverallRiskScore": -0.373
 }

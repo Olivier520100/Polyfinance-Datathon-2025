@@ -1,11 +1,11 @@
 {
   "Ticker": "ALLE",
-  "Summary": "Allegion (ALLE) analyzed 1 bill, facing no direct risk but minor indirect risk (-1.0) from 2 indirect impacts, indicating low overall legislative risk exposure.",
+  "Summary": "Allegion (ALLE) faces no direct or indirect risk from the 6 bills analyzed; no significant impacts identified; overall legislative risk assessment is low.",
   "SummaryKeypoints": [
-    "REGULATION (EU) 2024/1689 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL affects supplier Microsoft Azure (United States) through fine The legislation specifies: \"The Commission may impose on providers of general-purpose AI models fines not exceeding 3 % of their annual total worldwide turnover in the preceding financial year or EUR 15 000 000, whichever is higher.\"",
-    "REGULATION (EU) 2024/1689 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL affects supplier Amazon Web Services (United States) through fine The legislation specifies: \"The Commission may impose on providers of general-purpose AI models fines not exceeding 3 % of their annual total worldwide turnover in the preceding financial year or EUR 15 000 000, whichever is higher.\""
+    "No significant law impacts identified"
   ],
   "DirectRiskFactor": 0,
-  "IndirectRiskFactor": -1.0,
-  "TimeFactor": 0.9
+  "IndirectRiskFactor": 0,
+  "TimeFactor": 0.75,
+  "OverallRiskScore": -0.038
 }

@@ -1,10 +1,13 @@
 {
   "Ticker": "A",
-  "Summary": "Agilent Technologies (A) analyzed 6 bills. No direct or indirect impacts identified. Overall risk assessment: low. Company faces no legislative threats or regulatory exposure in current analysis.",
+  "Summary": "Agilent Technologies (A) analyzed 1 bill, with 1 direct and 2 indirect impacts. Direct risk: -0.95; indirect risk: -1.0. No regulatory value change. Overall risk: low.",
   "SummaryKeypoints": [
-    "No significant law impacts identified"
+    "REGULATION (EU) 2024/1689 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL imposes regulation. affecting operations in European Union. with short-term implementation The legislation states: \"As regards AI systems that are safety components of products, or which are themselves products, falling within the scope of certain Union harmonisation legislation listed in an annex to this Regulation, it is appropriate to classify them as high-risk under this Regulation if the product concerned undergoes the conformity assessment procedure with a third-party conformity assessment body pursuant to that relevant Union harmonisation legislation. In particular, such products are machinery, toys, lifts, equipment and protective systems intended for use in potentially explosive atmospheres, radio equipment, pressure equipment, recreational craft equipment, cableway installations, appliances burning gaseous fuels, medical devices, in vitro diagnostic medical devices, automotive and aviation.\"",
+    "REGULATION (EU) 2024/1689 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL affects supplier Dako (Denmark) through regulation The legislation specifies: \"As regards AI systems that are safety components of products, or which are themselves products, falling within the scope of certain Union harmonisation legislation listed in an annex to this Regulation, it is appropriate to classify them as high-risk under this Regulation if the product concerned undergoes the conformity assessment procedure with a third-party conformity assessment body pursuant to that relevant Union harmonisation legislation. In particular, such products are machinery, toys, lifts, equipment and protective systems intended for use in potentially explosive atmospheres, radio equipment, pressure equipment, recreational craft equipment, cableway installations, appliances burning gaseous fuels, medical devices, in vitro diagnostic medical devices, automotive and aviation.\"",
+    "REGULATION (EU) 2024/1689 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL affects supplier Dako (United States) through regulation The legislation specifies: \"As regards AI systems that are safety components of products, or which are themselves products, falling within the scope of certain Union harmonisation legislation listed in an annex to this Regulation, it is appropriate to classify them as high-risk under this Regulation if the product concerned undergoes the conformity assessment procedure with a third-party conformity assessment body pursuant to that relevant Union harmonisation legislation. In particular, such products are medical devices, in vitro diagnostic medical devices.\""
   ],
-  "DirectRiskFactor": 0,
-  "IndirectRiskFactor": 0,
-  "TimeFactor": 0.75
+  "DirectRiskFactor": -0.95,
+  "IndirectRiskFactor": -1.0,
+  "TimeFactor": 0.9,
+  "OverallRiskScore": -0.912
 }

@@ -1,10 +1,12 @@
 {
   "Ticker": "ALGN",
-  "Summary": "Align Technology (ALGN) faces direct risk from 1 analyzed bill, with 1 impact: a \u20ac15M fine. No indirect risks. Overall risk assessment: low volume, high-severity financial exposure.",
+  "Summary": "Align Technology (ALGN) analyzed 1 bill, facing 2 direct regulatory impacts: 0% regulatory change and a \u20ac15M fine. Indirect impacts: 0. Overall risk: low.",
   "SummaryKeypoints": [
+    "REGULATION (EU) 2024/1689 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL imposes regulation. affecting operations in European Union. with short-term implementation The legislation states: \"As regards AI systems that are safety components of products, or which are themselves products, falling within the scope of certain Union harmonisation legislation listed in an annex to this Regulation, it is appropriate to classify them as high-risk under this Regulation if the product concerned undergoes the conformity assessment procedure with a third-party conformity assessment body pursuant to that relevant Union harmonisation legislation. In particular, such products are machinery, toys, lifts, equipment and protective systems intended for use in potentially explosive atmospheres, radio equipment, pressure equipment, recreational craft equipment, cableway installations, appliances burning gaseous fuels, medical devices, in vitro diagnostic medical devices, automotive and aviation.\"",
     "REGULATION (EU) 2024/1689 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL establishes \u20ac15,000,000 fine. affecting operations in European Union. with short-term implementation The legislation states: \"The Commission may impose on providers of general-purpose AI models fines not exceeding 3 % of their annual total worldwide turnover in the preceding financial year or EUR 15 000 000, whichever is higher.\""
   ],
   "DirectRiskFactor": -1.0,
   "IndirectRiskFactor": 0,
-  "TimeFactor": 0.9
+  "TimeFactor": 0.9,
+  "OverallRiskScore": -0.636
 }
